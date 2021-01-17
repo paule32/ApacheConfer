@@ -3,19 +3,18 @@ unit ACPageControl;
 interface
 
 uses
-  SysUtils, Classes, Controls, ComCtrls, ACTranslateMisc;
+  SysUtils, Classes, Controls, ComCtrls, ACLocale;
 
 type
   TAC_PageControl = class(TPageControl)
   private
-    FLocale: TAC_Locale;
-    FTranslator: TAC_Translator;
-    procedure setLocale(Value: TAC_Locale);
+    FLocales: TAC_LocalesProperties;
+    procedure setLocales(Value: TAC_LocalesProperties);
   protected
   public
     constructor Create(AOwner: TComponent); override;
   published
-    property Locale: TAC_Locale read FLocale write setLocale;
+    property Locales: TAC_LocalesProperties read FLocales write setLocales;
   end;
 
 procedure Register;
@@ -26,13 +25,12 @@ constructor TAC_PageControl.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
   Parent := TWinControl(AOwner);
-  FTranslator := TAC_Translator.Create(locEN);
 end;
 
-procedure TAC_PageControl.setLocale(Value: TAC_Locale);
+procedure TAC_PageControl.setLocales(Value: TAC_LocalesProperties);
 begin
-  FLocale := Value;
-  FTranslator.setupLocale(Value);
+  FLocales := Value;
+
 end;
 
 procedure Register;

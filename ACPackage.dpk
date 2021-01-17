@@ -22,7 +22,7 @@ package ACPackage;
 {$WRITEABLECONST OFF}
 {$MINENUMSIZE 1}
 {$IMAGEBASE $4A080000}
-{$DESCRIPTION 'ApacheConfigurator exttra components'}
+{$DESCRIPTION 'ApacheConfigurator extra components'}
 {$IMPLICITBUILD OFF}
 
 requires

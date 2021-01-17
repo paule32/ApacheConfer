@@ -3,62 +3,46 @@ unit ACTranslateMisc;
 interface
 
 uses
-  Classes, SysUtils, Dialogs,IniFiles;
+  Classes, SysUtils, Dialogs,IniFiles, ACLocale;
 
 type
-  TAC_Locale      = ( locEN, locDE );
-  TAC_LocaleTag   = ( locMONTH, locWEEK, locDAY );
-  TAC_LocaleIndex = Integer;
-
   TAC_Translator = class
   private
     FFileName : String;
     FIniFile  : TIniFile;
-    FLocale   : TAC_Locale;
-    FLocaleOld: TAC_Locale;
   public
-    constructor Create(locale: TAC_Locale);
-    procedure setupLocale(Locale: TAC_Locale);
+    constructor Create(Locales: TAC_LocalesProperties);
+    destructor Destroy;
     function get(
-      loc: TAC_Locale;
-      loctag: TAC_LocaleTag;
-      locidx: TAC_LocaleIndex): String;
+          locStr: String;
+          locIdx: TAC_LocalesIndex):
+    String;
   end;
 
 implementation
 
-constructor TAC_Translator.Create(locale: TAC_Locale);
-begin
-  setupLocale(locale);
-end;
-
-procedure TAC_Translator.setupLocale(locale: TAC_Locale);
+constructor TAC_Translator.Create(Locales: TAC_LocalesProperties);
 begin
   FFileName := 'E:\locale\';
 
-  if Locale = locEN then FFileName := FFileName + 'en' else
-  if Locale = locDE then FFileName := FFileName + 'de' ;
+  if Locales.Language = locEN then FFileName := FFileName + 'en' else
+  if Locales.Language = locDE then FFileName := FFileName + 'de' ;
 
   FFileName := FFileName + '.ini';
 
-  if FiniFile <> nil then
+  FiniFile  := TIniFile.Create(FFileName);
+end;
+
+destructor TAC_Translator.Destroy;
+begin
   FiniFile.Free;
   FiniFile := nil;
-  FiniFile := TIniFile.Create(FFileName);
 end;
 
 function TAC_Translator.get(
-      loc:    TAC_Locale;
-      loctag: TAC_LocaleTag;
-      locidx: TAC_LocaleIndex): String;
-var
-  value: String;
-begin
-  setupLocale(loc);
-
-  if loctag = locMONTH then result := FiniFile.ReadString('month', IntToStr(locidx),'nok') else
-  if loctag = locWEEK  then result := FiniFile.ReadString('week' , IntToStr(locidx),'nok') else
-  if loctag = locDAY   then result := FiniFile.ReadString('day'  , IntToStr(locidx),'nok');
+  locStr: String;
+  locIdx: TAC_LocalesIndex): String; begin
+  result := FiniFile.ReadString(locStr, IntToStr(locIdx),'nok');
 end;
 
 end.

@@ -40,9 +40,9 @@ object Form1: TForm1
     object TabSheet4: TAC_TabSheet
       Caption = 'nok'
       ImageIndex = 3
-      Locale = locEN
-      LocaleIndex = 0
-      LocaleTag = locMONTH
+      Locales.Language = locEN
+      Locales.Category = tagMONTH
+      Locales.Index = 0
       object PageControl4: TAC_PageControl
         Left = 0
         Top = 0
@@ -54,9 +54,9 @@ object Form1: TForm1
         Locale = locEN
         object TabSheet8: TAC_TabSheet
           Caption = 'nok'
-          Locale = locEN
-          LocaleIndex = 0
-          LocaleTag = locMONTH
+          Locales.Language = locEN
+          Locales.Category = tagMONTH
+          Locales.Index = 0
           object ScrollBox13: TScrollBox
             Left = 0
             Top = 0
@@ -70,9 +70,9 @@ object Form1: TForm1
     end
     object TabSheet1: TAC_TabSheet
       Caption = 'nok'
-      Locale = locEN
-      LocaleIndex = 0
-      LocaleTag = locMONTH
+      Locales.Language = locEN
+      Locales.Category = tagMONTH
+      Locales.Index = 0
       object PageControl2: TAC_PageControl
         Left = 0
         Top = 0
@@ -84,9 +84,9 @@ object Form1: TForm1
         Locale = locEN
         object TabSheet9: TAC_TabSheet
           Caption = 'nok'
-          Locale = locEN
-          LocaleIndex = 0
-          LocaleTag = locMONTH
+          Locales.Language = locEN
+          Locales.Category = tagMONTH
+          Locales.Index = 0
           object PageControl5: TAC_PageControl
             Left = 0
             Top = 0
@@ -98,23 +98,23 @@ object Form1: TForm1
             Locale = locEN
             object TabSheet19: TAC_TabSheet
               Caption = 'nok'
-              Locale = locEN
-              LocaleIndex = 0
-              LocaleTag = locMONTH
+              Locales.Language = locEN
+              Locales.Category = tagMONTH
+              Locales.Index = 0
               object PageControl65: TAC_PageControl
                 Left = 0
                 Top = 0
                 Width = 918
                 Height = 247
-                ActivePage = TabSheet17
+                ActivePage = TabSheet10
                 Align = alClient
                 TabOrder = 0
                 Locale = locEN
                 object TabSheet10: TAC_TabSheet
                   Caption = 'nok'
-                  Locale = locEN
-                  LocaleIndex = 0
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object ScrollBox1: TScrollBox
                     Left = 0
                     Top = 0
@@ -133,9 +133,9 @@ object Form1: TForm1
                 object TabSheet11: TAC_TabSheet
                   Caption = 'nok'
                   ImageIndex = 1
-                  Locale = locEN
-                  LocaleIndex = 0
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object ScrollBox5: TScrollBox
                     Left = 0
                     Top = 0
@@ -154,9 +154,9 @@ object Form1: TForm1
                 object TabSheet12: TAC_TabSheet
                   Caption = 'nok'
                   ImageIndex = 2
-                  Locale = locEN
-                  LocaleIndex = 0
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object ScrollBox6: TScrollBox
                     Left = 0
                     Top = 0
@@ -175,9 +175,9 @@ object Form1: TForm1
                 object TabSheet13: TAC_TabSheet
                   Caption = 'nok'
                   ImageIndex = 3
-                  Locale = locEN
-                  LocaleIndex = 0
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object ScrollBox7: TScrollBox
                     Left = 0
                     Top = 0
@@ -196,9 +196,9 @@ object Form1: TForm1
                 object TabSheet14: TAC_TabSheet
                   Caption = 'nok'
                   ImageIndex = 4
-                  Locale = locEN
-                  LocaleIndex = 0
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object ScrollBox8: TScrollBox
                     Left = 0
                     Top = 0
@@ -217,9 +217,9 @@ object Form1: TForm1
                 object TabSheet16: TAC_TabSheet
                   Caption = 'nok'
                   ImageIndex = 5
-                  Locale = locEN
-                  LocaleIndex = 0
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object ScrollBox10: TScrollBox
                     Left = 0
                     Top = 0
@@ -238,9 +238,9 @@ object Form1: TForm1
                 object TabSheet17: TAC_TabSheet
                   Caption = 'nok'
                   ImageIndex = 6
-                  Locale = locEN
-                  LocaleIndex = 0
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object ScrollBox9: TScrollBox
                     Left = 0
                     Top = 0
@@ -261,9 +261,9 @@ object Form1: TForm1
             object TabSheet20: TAC_TabSheet
               Caption = 'nok'
               ImageIndex = 8
-              Locale = locEN
-              LocaleIndex = 0
-              LocaleTag = locMONTH
+              Locales.Language = locEN
+              Locales.Category = tagMONTH
+              Locales.Index = 0
               object PageControl6: TAC_PageControl
                 Left = 0
                 Top = 0
@@ -275,23 +275,23 @@ object Form1: TForm1
                 Locale = locDE
                 object TabSheet21: TAC_TabSheet
                   Caption = 'Januar'
-                  Locale = locDE
-                  LocaleIndex = 1
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl7: TAC_PageControl
                     Left = 0
                     Top = 0
                     Width = 910
                     Height = 219
-                    ActivePage = TabSheet36
+                    ActivePage = TabSheet33
                     Align = alClient
                     TabOrder = 0
                     Locale = locDE
                     object TabSheet33: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locDE
+                      Locales.Category = tagWEEK
+                      Locales.Index = 2
                       object ScrollBox16: TScrollBox
                         Left = 0
                         Top = 0
@@ -313,9 +313,9 @@ object Form1: TForm1
                     object TabSheet34: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox17: TScrollBox
                         Left = 0
                         Top = 0
@@ -337,9 +337,9 @@ object Form1: TForm1
                     object TabSheet35: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox18: TScrollBox
                         Left = 0
                         Top = 0
@@ -361,9 +361,9 @@ object Form1: TForm1
                     object TabSheet36: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox19: TScrollBox
                         Left = 0
                         Top = 0
@@ -387,9 +387,9 @@ object Form1: TForm1
                 object TabSheet23: TAC_TabSheet
                   Caption = 'Februar'
                   ImageIndex = 1
-                  Locale = locDE
-                  LocaleIndex = 2
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl8: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -401,9 +401,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet37: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox23: TScrollBox
                         Left = 0
                         Top = 0
@@ -425,9 +425,9 @@ object Form1: TForm1
                     object TabSheet38: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox21: TScrollBox
                         Left = 0
                         Top = 0
@@ -449,9 +449,9 @@ object Form1: TForm1
                     object TabSheet39: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox22: TScrollBox
                         Left = 0
                         Top = 0
@@ -473,9 +473,9 @@ object Form1: TForm1
                     object TabSheet40: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox20: TScrollBox
                         Left = 0
                         Top = 0
@@ -499,9 +499,9 @@ object Form1: TForm1
                 object TabSheet24: TAC_TabSheet
                   Caption = 'M'#228'rz'
                   ImageIndex = 2
-                  Locale = locDE
-                  LocaleIndex = 3
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl9: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -513,9 +513,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet41: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox24: TScrollBox
                         Left = 0
                         Top = 0
@@ -537,9 +537,9 @@ object Form1: TForm1
                     object TabSheet42: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox25: TScrollBox
                         Left = 0
                         Top = 0
@@ -561,9 +561,9 @@ object Form1: TForm1
                     object TabSheet43: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox26: TScrollBox
                         Left = 0
                         Top = 0
@@ -585,9 +585,9 @@ object Form1: TForm1
                     object TabSheet44: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox27: TScrollBox
                         Left = 0
                         Top = 0
@@ -611,9 +611,9 @@ object Form1: TForm1
                 object TabSheet25: TAC_TabSheet
                   Caption = 'April'
                   ImageIndex = 3
-                  Locale = locDE
-                  LocaleIndex = 4
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl10: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -625,9 +625,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet45: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox31: TScrollBox
                         Left = 0
                         Top = 0
@@ -649,9 +649,9 @@ object Form1: TForm1
                     object TabSheet53: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox30: TScrollBox
                         Left = 0
                         Top = 0
@@ -673,9 +673,9 @@ object Form1: TForm1
                     object TabSheet54: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox29: TScrollBox
                         Left = 0
                         Top = 0
@@ -697,9 +697,9 @@ object Form1: TForm1
                     object TabSheet55: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox28: TScrollBox
                         Left = 0
                         Top = 0
@@ -723,9 +723,9 @@ object Form1: TForm1
                 object TabSheet26: TAC_TabSheet
                   Caption = 'Mai'
                   ImageIndex = 4
-                  Locale = locDE
-                  LocaleIndex = 5
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl11: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -737,9 +737,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet46: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox32: TScrollBox
                         Left = 0
                         Top = 0
@@ -761,9 +761,9 @@ object Form1: TForm1
                     object TabSheet56: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox33: TScrollBox
                         Left = 0
                         Top = 0
@@ -785,9 +785,9 @@ object Form1: TForm1
                     object TabSheet57: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox34: TScrollBox
                         Left = 0
                         Top = 0
@@ -809,9 +809,9 @@ object Form1: TForm1
                     object TabSheet58: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox35: TScrollBox
                         Left = 0
                         Top = 0
@@ -835,9 +835,9 @@ object Form1: TForm1
                 object TabSheet27: TAC_TabSheet
                   Caption = 'Juni'
                   ImageIndex = 5
-                  Locale = locDE
-                  LocaleIndex = 6
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl12: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -849,9 +849,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet47: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox36: TScrollBox
                         Left = 0
                         Top = 0
@@ -873,9 +873,9 @@ object Form1: TForm1
                     object TabSheet59: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox37: TScrollBox
                         Left = 0
                         Top = 0
@@ -897,9 +897,9 @@ object Form1: TForm1
                     object TabSheet60: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox38: TScrollBox
                         Left = 0
                         Top = 0
@@ -921,9 +921,9 @@ object Form1: TForm1
                     object TabSheet61: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox39: TScrollBox
                         Left = 0
                         Top = 0
@@ -947,9 +947,9 @@ object Form1: TForm1
                 object TabSheet28: TAC_TabSheet
                   Caption = 'Juli'
                   ImageIndex = 6
-                  Locale = locDE
-                  LocaleIndex = 7
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl13: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -961,9 +961,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet48: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox43: TScrollBox
                         Left = 0
                         Top = 0
@@ -985,9 +985,9 @@ object Form1: TForm1
                     object TabSheet62: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox42: TScrollBox
                         Left = 0
                         Top = 0
@@ -1009,9 +1009,9 @@ object Form1: TForm1
                     object TabSheet63: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox41: TScrollBox
                         Left = 0
                         Top = 0
@@ -1033,9 +1033,9 @@ object Form1: TForm1
                     object TabSheet64: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox40: TScrollBox
                         Left = 0
                         Top = 0
@@ -1059,9 +1059,9 @@ object Form1: TForm1
                 object TabSheet29: TAC_TabSheet
                   Caption = 'August'
                   ImageIndex = 7
-                  Locale = locDE
-                  LocaleIndex = 8
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl14: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -1073,9 +1073,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet49: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox44: TScrollBox
                         Left = 0
                         Top = 0
@@ -1097,9 +1097,9 @@ object Form1: TForm1
                     object TabSheet65: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox45: TScrollBox
                         Left = 0
                         Top = 0
@@ -1121,9 +1121,9 @@ object Form1: TForm1
                     object TabSheet66: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox46: TScrollBox
                         Left = 0
                         Top = 0
@@ -1145,9 +1145,9 @@ object Form1: TForm1
                     object TabSheet67: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox47: TScrollBox
                         Left = 0
                         Top = 0
@@ -1171,9 +1171,9 @@ object Form1: TForm1
                 object TabSheet30: TAC_TabSheet
                   Caption = 'September'
                   ImageIndex = 8
-                  Locale = locDE
-                  LocaleIndex = 9
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl15: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -1185,9 +1185,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet50: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox48: TScrollBox
                         Left = 0
                         Top = 0
@@ -1209,9 +1209,9 @@ object Form1: TForm1
                     object TabSheet68: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox49: TScrollBox
                         Left = 0
                         Top = 0
@@ -1233,9 +1233,9 @@ object Form1: TForm1
                     object TabSheet69: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox50: TScrollBox
                         Left = 0
                         Top = 0
@@ -1257,9 +1257,9 @@ object Form1: TForm1
                     object TabSheet70: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox51: TScrollBox
                         Left = 0
                         Top = 0
@@ -1283,9 +1283,9 @@ object Form1: TForm1
                 object TabSheet31: TAC_TabSheet
                   Caption = 'Oktober'
                   ImageIndex = 9
-                  Locale = locDE
-                  LocaleIndex = 10
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl16: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -1297,9 +1297,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet51: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox52: TScrollBox
                         Left = 0
                         Top = 0
@@ -1321,9 +1321,9 @@ object Form1: TForm1
                     object TabSheet71: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox53: TScrollBox
                         Left = 0
                         Top = 0
@@ -1345,9 +1345,9 @@ object Form1: TForm1
                     object TabSheet72: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox54: TScrollBox
                         Left = 0
                         Top = 0
@@ -1369,9 +1369,9 @@ object Form1: TForm1
                     object TabSheet73: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox55: TScrollBox
                         Left = 0
                         Top = 0
@@ -1395,9 +1395,9 @@ object Form1: TForm1
                 object TabSheet32: TAC_TabSheet
                   Caption = 'November'
                   ImageIndex = 10
-                  Locale = locDE
-                  LocaleIndex = 11
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object PageControl17: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -1409,9 +1409,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet52: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox56: TScrollBox
                         Left = 0
                         Top = 0
@@ -1433,9 +1433,9 @@ object Form1: TForm1
                     object TabSheet74: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox57: TScrollBox
                         Left = 0
                         Top = 0
@@ -1457,9 +1457,9 @@ object Form1: TForm1
                     object TabSheet75: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox58: TScrollBox
                         Left = 0
                         Top = 0
@@ -1481,9 +1481,9 @@ object Form1: TForm1
                     object TabSheet76: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox59: TScrollBox
                         Left = 0
                         Top = 0
@@ -1507,9 +1507,9 @@ object Form1: TForm1
                 object TabSheet77: TAC_TabSheet
                   Caption = 'Dezember'
                   ImageIndex = 11
-                  Locale = locDE
-                  LocaleIndex = 12
-                  LocaleTag = locMONTH
+                  Locales.Language = locEN
+                  Locales.Category = tagMONTH
+                  Locales.Index = 0
                   object AC_PageControl1: TAC_PageControl
                     Left = 0
                     Top = 0
@@ -1521,9 +1521,9 @@ object Form1: TForm1
                     Locale = locEN
                     object TabSheet78: TAC_TabSheet
                       Caption = 'Woche 1'
-                      Locale = locDE
-                      LocaleIndex = 1
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox63: TScrollBox
                         Left = 0
                         Top = 0
@@ -1545,9 +1545,9 @@ object Form1: TForm1
                     object TabSheet79: TAC_TabSheet
                       Caption = 'Woche 2'
                       ImageIndex = 1
-                      Locale = locDE
-                      LocaleIndex = 2
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox61: TScrollBox
                         Left = 0
                         Top = 0
@@ -1569,9 +1569,9 @@ object Form1: TForm1
                     object TabSheet80: TAC_TabSheet
                       Caption = 'Woche 3'
                       ImageIndex = 2
-                      Locale = locDE
-                      LocaleIndex = 3
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox62: TScrollBox
                         Left = 0
                         Top = 0
@@ -1593,9 +1593,9 @@ object Form1: TForm1
                     object TabSheet81: TAC_TabSheet
                       Caption = 'Woche 4'
                       ImageIndex = 3
-                      Locale = locDE
-                      LocaleIndex = 4
-                      LocaleTag = locWEEK
+                      Locales.Language = locEN
+                      Locales.Category = tagMONTH
+                      Locales.Index = 0
                       object ScrollBox60: TScrollBox
                         Left = 0
                         Top = 0
@@ -1621,9 +1621,9 @@ object Form1: TForm1
             object TabSheet22: TAC_TabSheet
               Caption = 'nok'
               ImageIndex = 2
-              Locale = locEN
-              LocaleIndex = 0
-              LocaleTag = locMONTH
+              Locales.Language = locEN
+              Locales.Category = tagMONTH
+              Locales.Index = 0
               object ScrollBox15: TScrollBox
                 Left = 0
                 Top = 0
@@ -1637,9 +1637,9 @@ object Form1: TForm1
         end
         object TabSheet5: TAC_TabSheet
           Caption = 'nok'
-          Locale = locEN
-          LocaleIndex = 0
-          LocaleTag = locMONTH
+          Locales.Language = locEN
+          Locales.Category = tagMONTH
+          Locales.Index = 0
           object PageControl3: TAC_PageControl
             Left = 0
             Top = 0
@@ -1651,9 +1651,9 @@ object Form1: TForm1
             Locale = locEN
             object TabSheet7: TAC_TabSheet
               Caption = 'nok'
-              Locale = locEN
-              LocaleIndex = 0
-              LocaleTag = locMONTH
+              Locales.Language = locEN
+              Locales.Category = tagMONTH
+              Locales.Index = 0
               object ScrollBox3: TScrollBox
                 Left = 0
                 Top = 0
@@ -1791,9 +1791,9 @@ object Form1: TForm1
             object TabSheet15: TAC_TabSheet
               Caption = 'nok'
               ImageIndex = 1
-              Locale = locEN
-              LocaleIndex = 0
-              LocaleTag = locMONTH
+              Locales.Language = locEN
+              Locales.Category = tagMONTH
+              Locales.Index = 0
               object ScrollBox2: TScrollBox
                 Left = 0
                 Top = 0
@@ -1925,9 +1925,9 @@ object Form1: TForm1
             object TabSheet18: TAC_TabSheet
               Caption = 'nok'
               ImageIndex = 2
-              Locale = locEN
-              LocaleIndex = 0
-              LocaleTag = locMONTH
+              Locales.Language = locEN
+              Locales.Category = tagMONTH
+              Locales.Index = 0
               object ScrollBox14: TScrollBox
                 Left = 0
                 Top = 0
@@ -2012,9 +2012,9 @@ object Form1: TForm1
         object TabSheet6: TAC_TabSheet
           Caption = 'nok'
           ImageIndex = 1
-          Locale = locEN
-          LocaleIndex = 0
-          LocaleTag = locMONTH
+          Locales.Language = locEN
+          Locales.Category = tagMONTH
+          Locales.Index = 0
           object ScrollBox4: TScrollBox
             Left = 0
             Top = 0
@@ -2110,9 +2110,9 @@ object Form1: TForm1
     object TabSheet2: TAC_TabSheet
       Caption = 'nok'
       ImageIndex = 1
-      Locale = locEN
-      LocaleIndex = 0
-      LocaleTag = locMONTH
+      Locales.Language = locEN
+      Locales.Category = tagMONTH
+      Locales.Index = 0
       object ScrollBox12: TScrollBox
         Left = 0
         Top = 0
@@ -2125,9 +2125,9 @@ object Form1: TForm1
     object TabSheet3: TAC_TabSheet
       Caption = 'nok'
       ImageIndex = 2
-      Locale = locEN
-      LocaleIndex = 0
-      LocaleTag = locMONTH
+      Locales.Language = locEN
+      Locales.Category = tagMONTH
+      Locales.Index = 0
       object ScrollBox11: TScrollBox
         Left = 0
         Top = 0
