@@ -33,6 +33,9 @@ contains
   ACTimeCheckPanel in 'ACTimeCheckPanel.pas',
   ACl_LEDPaint in 'ACl_LEDPaint.pas',
   ACTimeCheckPanelDays in 'ACTimeCheckPanelDays.pas',
-  ACTimeYearPanel in 'ACTimeYearPanel.pas';
+  ACTimeYearPanel in 'ACTimeYearPanel.pas',
+  ACTranslateMisc in 'ACTranslateMisc.pas',
+  ACPageControl in 'ACPageControl.pas',
+  ACTabSheet in 'ACTabSheet.pas';
 
 end.
