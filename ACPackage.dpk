@@ -36,6 +36,7 @@ contains
   ACTimeYearPanel in 'ACTimeYearPanel.pas',
   ACTranslateMisc in 'ACTranslateMisc.pas',
   ACPageControl in 'ACPageControl.pas',
-  ACTabSheet in 'ACTabSheet.pas';
+  ACTabSheet in 'ACTabSheet.pas',
+  ACLocale in 'ACLocale.pas';
 
 end.

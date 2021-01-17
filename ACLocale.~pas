@@ -1,0 +1,53 @@
+unit ACLocale;
+
+interface
+uses
+  Classes;
+
+type
+  TAC_LocalesLanguage = ( locEN, locDE );
+  TAC_LocalesTag      = ( tagMONTH, tagWEEK, tagDAY );
+
+  TAC_LocalesIndex      = Integer;
+  TAC_LocalesProperties = class(TPersistent)
+  private
+    FLocalesLang : TAC_LocalesLanguage;
+    FLocalesTag  : TAC_LocalesTag;
+    FLocalesIndex: TAC_LocalesIndex;
+
+    procedure setLocalesLang (Value: TAC_LocalesLanguage);
+    procedure setLocalesTag  (Value: TAC_LocalesTag);
+    procedure setLocalesIndex(Value: TAC_LocalesIndex);
+  public
+    constructor Create(AOwner: TObject);
+  published
+    property Language: TAC_LocalesLanguage read FLocalesLang  write setLocalesLang;
+    property Category: TAC_LocalesTag      read FLocalesTag   write setLocalesTag;
+    property Index:    TAC_LocalesIndex    read FLocalesIndex write setLocalesIndex;
+  end;
+
+  TAC_Locales = class(
+
+implementation
+
+procedure TAC_Locales.setLocalesLang(Value: TAC_LocalesLanguage);
+begin
+  FLocalesLang := Value;
+end;
+
+procedure TAC_Locales.setLocalesTag(Value: TAC_LocalesTag);
+begin
+  FLocalesTag := Value;
+end;
+
+procedure TAC_Locales.setLocalesIndex(Value: TAC_LocalesIndex);
+begin
+  FLocalesIndex := Value;
+end;
+constructor TAC_Locales.Create(AOwner: TObject);
+begin
+  inherited Create;
+
+end;
+
+end.
