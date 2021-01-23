@@ -19,6 +19,9 @@ type
     String;
   end;
 
+var
+  FTranslator: TAC_Translator;
+
 implementation
 
 constructor TAC_Translator.Create(Locales: TAC_LocalesProperties);

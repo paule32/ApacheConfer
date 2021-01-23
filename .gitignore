@@ -26,3 +26,6 @@ ACTranslateMisc.~pas
 ACTimeYearPanel.dcu
 ACTimeYearPanel.dcu
 ACTabSheet.dcu
+*.dcu
+ACTranslateMisc.dcu
+3
