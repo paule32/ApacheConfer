@@ -29,3 +29,9 @@ ACTabSheet.dcu
 *.dcu
 ACTranslateMisc.dcu
 3
+ProfileFrame.~pas
+ProfileFrame.~dfm
+Splash.~ddp
+Splash.~dfm
+Splash.~pas
+locales/de.~ini
