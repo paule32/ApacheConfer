@@ -112,8 +112,8 @@ RootDir=E:\Program Files (x86)\Borland\Delphi7\Bin\
 [Version Info]
 IncludeVerInfo=1
 AutoIncBuild=0
-MajorVer=3
-MinorVer=41
+MajorVer=1
+MinorVer=0
 Release=0
 Build=0
 Debug=0
@@ -124,15 +124,15 @@ DLL=1
 Locale=1033
 CodePage=1252
 [Version Info Keys]
-CompanyName=Project JEDI
-FileDescription=JVCL Core Components
-FileVersion=3.41.0.0
-InternalName=JvCoreDesign
-LegalCopyright=Copyright (C) 1999, 2012 Project JEDI
+CompanyName=KALLUP . NET
+FileDescription=Apache 2.4 configurator
+FileVersion=1.0.0.0
+InternalName=ApacheConfer
+LegalCopyright=Copyright (C) 2021 Jens Kallup
 LegalTrademarks=
-OriginalFilename=JvCoreDesign70.bpl
-ProductName=JEDI Visual Component Library
-ProductVersion=3.41 Build 0
+OriginalFilename=Apache2.4.exe
+ProductName=Apache 2.4 configurator
+ProductVersion=1.0.0.0
 [Excluded Packages]
 e:\program files (x86)\borland\delphi7\Projects\Bpl\GeckoSDK.bpl=Gecko SDK
 e:\program files (x86)\borland\delphi7\Projects\Bpl\GeckoComponents.bpl=Gecko Components
@@ -140,7 +140,5 @@ e:\program files (x86)\borland\delphi7\Projects\Bpl\GeckoComponents.bpl=Gecko Co
 Count=1
 Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
 [HistoryLists\hlSearchPath]
-Count=3
-Item0=..\..\run;..\..\common;..\..\Resources;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\common;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\include;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\include\jedi;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\vcl;E:\paule32\RK1700\Entwicklung\jvcl\common;E:\paule32\RK1700\Entwicklung\jvcl\dcu;E:\paule32\RK1700\Entwicklung\jvcl\lib\d7;E:\paule32\RK1700\Entwicklung\jvcl\packages\d7;E:\paule32\RK1700\Entwicklung\jvcl\Resources;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\windows
-Item1=..\..\run;..\..\common;..\..\Resources;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\common;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\include;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\include\jedi;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\vcl;E:\paule32\RK1700\Entwicklung\jvcl\common;E:\paule32\RK1700\Entwicklung\jvcl\dcu;E:\paule32\RK1700\Entwicklung\jvcl\lib\d7
-Item2=..\..\run;..\..\common;..\..\Resources;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\common;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\include;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\include\jedi;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\vcl
+Count=1
+Item0=..\..\run;..\..\common;..\..\Resources;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\common;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\include;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\include\jedi;E:\paule32\RK1700\Entwicklung\jcl-2.7.0.5676\source\vcl
