@@ -13,7 +13,7 @@ type
     procedure setProperties(Value: TAC_LocalesProperties);
   public
     constructor Create(AOwner: TComponent); override;
-    destructor Destroy;
+    destructor Destroy; override;
   published
     property Locales: TAC_LocalesProperties read FProperties write setProperties;
   end;

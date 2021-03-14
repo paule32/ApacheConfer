@@ -1,15 +1,15 @@
 object Frame3: TFrame3
   Left = 0
   Top = 0
-  Width = 719
-  Height = 484
+  Width = 720
+  Height = 498
   TabOrder = 0
   object PageControl5: TJvPageControl
     Left = 0
     Top = 0
-    Width = 719
-    Height = 484
-    ActivePage = TabSheet97
+    Width = 720
+    Height = 498
+    ActivePage = TabSheet14
     Align = alClient
     PopupMenu = form_popup
     TabOrder = 0
@@ -21,9 +21,9 @@ object Frame3: TFrame3
       object AC_PageControl1: TAC_PageControl
         Left = 0
         Top = 0
-        Width = 711
-        Height = 456
-        ActivePage = TabSheet20
+        Width = 712
+        Height = 470
+        ActivePage = TabSheet19
         Align = alClient
         TabOrder = 0
         object TabSheet19: TAC_TabSheet
@@ -34,8 +34,8 @@ object Frame3: TFrame3
           object ServerTimePage: TAC_PageControl
             Left = 0
             Top = 0
-            Width = 703
-            Height = 428
+            Width = 704
+            Height = 442
             ActivePage = TabSheet_day_1
             Align = alClient
             TabOrder = 0
@@ -47,16 +47,10 @@ object Frame3: TFrame3
               object ScrollBox1: TJvScrollBox
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 Align = alClient
                 TabOrder = 0
-                object AC_TimeCheckPanel1: TAC_TimeCheckPanel
-                  Left = 1
-                  Top = 0
-                  Width = 1185
-                  Height = 182
-                end
               end
             end
             object TabSheet_day_2: TAC_TabSheet
@@ -68,16 +62,10 @@ object Frame3: TFrame3
               object ScrollBox5: TJvScrollBox
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 Align = alClient
                 TabOrder = 0
-                object AC_TimeCheckPanel2: TAC_TimeCheckPanel
-                  Left = 1
-                  Top = 0
-                  Width = 1185
-                  Height = 182
-                end
               end
             end
             object TabSheet_day_3: TAC_TabSheet
@@ -93,12 +81,6 @@ object Frame3: TFrame3
                 Height = 248
                 Align = alClient
                 TabOrder = 0
-                object AC_TimeCheckPanel3: TAC_TimeCheckPanel
-                  Left = 1
-                  Top = 0
-                  Width = 1185
-                  Height = 182
-                end
               end
             end
             object AC_TabSheet1: TAC_TabSheet
@@ -114,12 +96,6 @@ object Frame3: TFrame3
                 Height = 248
                 Align = alClient
                 TabOrder = 0
-                object AC_TimeCheckPanel4: TAC_TimeCheckPanel
-                  Left = 1
-                  Top = 0
-                  Width = 1185
-                  Height = 182
-                end
               end
             end
             object AC_TabSheet2: TAC_TabSheet
@@ -135,12 +111,6 @@ object Frame3: TFrame3
                 Height = 248
                 Align = alClient
                 TabOrder = 0
-                object AC_TimeCheckPanel5: TAC_TimeCheckPanel
-                  Left = 1
-                  Top = 0
-                  Width = 1185
-                  Height = 182
-                end
               end
             end
             object TabSheet16: TAC_TabSheet
@@ -156,12 +126,6 @@ object Frame3: TFrame3
                 Height = 248
                 Align = alClient
                 TabOrder = 0
-                object AC_TimeCheckPanel6: TAC_TimeCheckPanel
-                  Left = 1
-                  Top = 0
-                  Width = 1185
-                  Height = 182
-                end
               end
             end
             object TabSheet17: TAC_TabSheet
@@ -177,12 +141,6 @@ object Frame3: TFrame3
                 Height = 248
                 Align = alClient
                 TabOrder = 0
-                object AC_TimeCheckPanel7: TAC_TimeCheckPanel
-                  Left = 1
-                  Top = 0
-                  Width = 1185
-                  Height = 182
-                end
               end
             end
           end
@@ -196,9 +154,9 @@ object Frame3: TFrame3
           object PageControl6: TAC_PageControl
             Left = 0
             Top = 0
-            Width = 703
-            Height = 428
-            ActivePage = TabSheet21
+            Width = 704
+            Height = 442
+            ActivePage = TabSheet23
             Align = alClient
             TabOrder = 0
             object TabSheet21: TAC_TabSheet
@@ -209,8 +167,8 @@ object Frame3: TFrame3
               object PageControl7: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet36
                 Align = alClient
                 TabOrder = 0
@@ -222,17 +180,17 @@ object Frame3: TFrame3
                   object ScrollBox16: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel5: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
-                      Color = clGray
+                      Color = clMoneyGreen
                       TabOrder = 0
                       object Label15: TJvLabel
                         Left = 1
@@ -241,6 +199,17 @@ object Frame3: TFrame3
                         Height = 13
                         Align = alTop
                         Caption = 'ACL-- Day'
+                        Font.Charset = DEFAULT_CHARSET
+                        Font.Color = clWindowText
+                        Font.Height = -11
+                        Font.Name = 'MS Sans Serif'
+                        Font.Style = [fsBold]
+                        ParentFont = False
+                        HotTrackFont.Charset = DEFAULT_CHARSET
+                        HotTrackFont.Color = clWindowText
+                        HotTrackFont.Height = -11
+                        HotTrackFont.Name = 'MS Sans Serif'
+                        HotTrackFont.Style = []
                       end
                       object AC_DaysPanel1: TAC_DaysPanel
                         Left = 1
@@ -248,7 +217,13 @@ object Frame3: TFrame3
                         Width = 143
                         Height = 146
                         BevelOuter = bvLowered
-                        Color = clGray
+                        Color = clMoneyGreen
+                        Font.Charset = DEFAULT_CHARSET
+                        Font.Color = clWindowText
+                        Font.Height = -11
+                        Font.Name = 'MS Sans Serif'
+                        Font.Style = [fsBold]
+                        ParentFont = False
                         TabOrder = 0
                       end
                       object CheckBox4: TJvCheckBox
@@ -265,18 +240,39 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
-                      Color = clGray
+                      Color = clMoneyGreen
                       TabOrder = 1
-                      object Panel4: TJvPanel
+                      object JvLabel7: TJvLabel
                         Left = 1
                         Top = 1
+                        Width = 646
+                        Height = 13
+                        Align = alTop
+                        Caption = 'Priovisoring'
+                        Color = clMoneyGreen
+                        Font.Charset = DEFAULT_CHARSET
+                        Font.Color = clWindowText
+                        Font.Height = -11
+                        Font.Name = 'MS Sans Serif'
+                        Font.Style = [fsBold]
+                        ParentColor = False
+                        ParentFont = False
+                        HotTrackFont.Charset = DEFAULT_CHARSET
+                        HotTrackFont.Color = clWindowText
+                        HotTrackFont.Height = -11
+                        HotTrackFont.Name = 'MS Sans Serif'
+                        HotTrackFont.Style = []
+                      end
+                      object Panel4: TJvPanel
+                        Left = 1
+                        Top = 14
                         Width = 164
-                        Height = 349
+                        Height = 350
                         Align = alLeft
-                        Color = clGray
+                        Color = clMoneyGreen
                         TabOrder = 0
                         object Label14: TJvLabel
                           Left = 1
@@ -284,15 +280,25 @@ object Frame3: TFrame3
                           Width = 162
                           Height = 13
                           Align = alTop
-                          Caption = 'ACL-- User'
+                          Caption = 'ACL-- User:'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -11
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -11
+                          HotTrackFont.Name = 'MS Sans Serif'
+                          HotTrackFont.Style = []
                         end
                         object CheckListBox1: TJvCheckListBox
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 268
+                          Height = 136
                           Align = alCustom
-                          Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
                           TabOrder = 0
                         end
@@ -305,23 +311,66 @@ object Frame3: TFrame3
                           TabOrder = 1
                           LinkedControls = <>
                         end
+                        object JvCheckListBox6: TJvCheckListBox
+                          Left = 2
+                          Top = 192
+                          Width = 162
+                          Height = 116
+                          Align = alCustom
+                          ItemHeight = 13
+                          TabOrder = 2
+                        end
+                        object JvImgBtn11: TJvImgBtn
+                          Left = 1
+                          Top = 320
+                          Width = 75
+                          Height = 25
+                          Caption = 'Add'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 3
+                          OnClick = rewrite_btn_addClick
+                          Color = 8454016
+                        end
+                        object JvImgBtn12: TJvImgBtn
+                          Left = 89
+                          Top = 320
+                          Width = 75
+                          Height = 25
+                          Caption = 'Delete'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 4
+                          OnClick = rewrite_btn_delClick
+                          Color = 8421631
+                        end
                       end
                       object Panel3: TJvPanel
-                        Left = 165
-                        Top = 1
-                        Width = 20
-                        Height = 349
+                        Left = 341
+                        Top = 14
+                        Width = 9
+                        Height = 350
                         Align = alLeft
                         Color = clGray
                         TabOrder = 1
                       end
                       object Panel6: TJvPanel
-                        Left = 185
-                        Top = 1
+                        Left = 350
+                        Top = 14
                         Width = 167
-                        Height = 349
+                        Height = 350
                         Align = alLeft
-                        Color = clGray
+                        Color = clMoneyGreen
                         TabOrder = 2
                         object Label13: TJvLabel
                           Left = 1
@@ -329,17 +378,27 @@ object Frame3: TFrame3
                           Width = 165
                           Height = 13
                           Align = alTop
-                          Caption = 'ACL-- Group'
-                          Color = clGray
+                          Caption = 'ACL-- Group:'
+                          Color = clMoneyGreen
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -11
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
                           ParentColor = False
+                          ParentFont = False
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -11
+                          HotTrackFont.Name = 'MS Sans Serif'
+                          HotTrackFont.Style = []
                         end
                         object CheckListBox2: TJvCheckListBox
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 137
                           Align = alCustom
-                          Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
                           TabOrder = 0
                         end
@@ -352,6 +411,160 @@ object Frame3: TFrame3
                           TabOrder = 1
                           LinkedControls = <>
                         end
+                        object JvCheckListBox7: TJvCheckListBox
+                          Left = 2
+                          Top = 192
+                          Width = 162
+                          Height = 114
+                          Align = alCustom
+                          Anchors = [akLeft, akTop, akBottom]
+                          ItemHeight = 13
+                          TabOrder = 2
+                        end
+                        object JvImgBtn13: TJvImgBtn
+                          Left = 1
+                          Top = 320
+                          Width = 75
+                          Height = 25
+                          Caption = 'Add'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 3
+                          OnClick = rewrite_btn_addClick
+                          Color = 8454016
+                        end
+                        object JvImgBtn14: TJvImgBtn
+                          Left = 89
+                          Top = 320
+                          Width = 75
+                          Height = 25
+                          Caption = 'Delete'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 4
+                          OnClick = rewrite_btn_delClick
+                          Color = 8421631
+                        end
+                      end
+                      object JvPanel2: TJvPanel
+                        Left = 165
+                        Top = 14
+                        Width = 9
+                        Height = 350
+                        Align = alLeft
+                        Color = clGray
+                        TabOrder = 3
+                      end
+                      object JvPanel3: TJvPanel
+                        Left = 174
+                        Top = 14
+                        Width = 167
+                        Height = 350
+                        Align = alLeft
+                        Color = clMoneyGreen
+                        TabOrder = 4
+                        object JvLabel8: TJvLabel
+                          Left = 1
+                          Top = 1
+                          Width = 165
+                          Height = 13
+                          Align = alTop
+                          Caption = 'ACL-- Group:'
+                          Color = clMoneyGreen
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -11
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
+                          ParentColor = False
+                          ParentFont = False
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -11
+                          HotTrackFont.Name = 'MS Sans Serif'
+                          HotTrackFont.Style = []
+                        end
+                        object JvCheckListBox8: TJvCheckListBox
+                          Left = 1
+                          Top = 40
+                          Width = 162
+                          Height = 137
+                          Align = alCustom
+                          ItemHeight = 13
+                          TabOrder = 0
+                        end
+                        object JvCheckBox3: TJvCheckBox
+                          Left = 0
+                          Top = 19
+                          Width = 65
+                          Height = 17
+                          Caption = 'Select All'
+                          TabOrder = 1
+                          LinkedControls = <>
+                        end
+                        object JvCheckListBox9: TJvCheckListBox
+                          Left = 2
+                          Top = 192
+                          Width = 162
+                          Height = 114
+                          Align = alCustom
+                          Anchors = [akLeft, akTop, akBottom]
+                          ItemHeight = 13
+                          TabOrder = 2
+                        end
+                        object JvImgBtn15: TJvImgBtn
+                          Left = 1
+                          Top = 320
+                          Width = 75
+                          Height = 25
+                          Caption = 'Add'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 3
+                          OnClick = rewrite_btn_addClick
+                          Color = 8454016
+                        end
+                        object JvImgBtn16: TJvImgBtn
+                          Left = 89
+                          Top = 320
+                          Width = 75
+                          Height = 25
+                          Caption = 'Delete'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 4
+                          OnClick = rewrite_btn_delClick
+                          Color = 8421631
+                        end
+                      end
+                      object JvPanel4: TJvPanel
+                        Left = 517
+                        Top = 14
+                        Width = 9
+                        Height = 350
+                        Align = alLeft
+                        Color = clGray
+                        TabOrder = 5
                       end
                     end
                   end
@@ -365,15 +578,15 @@ object Frame3: TFrame3
                   object ScrollBox17: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel9: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -407,7 +620,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -415,7 +628,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -431,7 +644,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 124
+                          Height = 158
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -451,7 +664,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -459,7 +672,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -475,7 +688,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 124
+                          Height = 138
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -503,15 +716,15 @@ object Frame3: TFrame3
                   object ScrollBox18: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel14: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -545,7 +758,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -553,7 +766,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -569,7 +782,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -589,7 +802,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -597,7 +810,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -613,7 +826,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -641,15 +854,15 @@ object Frame3: TFrame3
                   object ScrollBox19: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel18: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -683,7 +896,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -691,7 +904,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -707,7 +920,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -727,7 +940,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -735,7 +948,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -751,7 +964,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -781,8 +994,8 @@ object Frame3: TFrame3
               object PageControl8: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet37
                 Align = alClient
                 TabOrder = 0
@@ -794,15 +1007,15 @@ object Frame3: TFrame3
                   object ScrollBox23: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel34: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -836,7 +1049,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -844,7 +1057,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -860,7 +1073,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -880,7 +1093,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -888,7 +1101,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -904,7 +1117,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -932,15 +1145,15 @@ object Frame3: TFrame3
                   object ScrollBox21: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel29: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -974,7 +1187,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -982,7 +1195,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -998,7 +1211,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1018,7 +1231,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -1026,7 +1239,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -1042,7 +1255,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1070,15 +1283,15 @@ object Frame3: TFrame3
                   object ScrollBox22: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel24: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -1112,7 +1325,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -1120,7 +1333,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -1136,7 +1349,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1156,7 +1369,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -1164,7 +1377,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -1180,7 +1393,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1208,15 +1421,15 @@ object Frame3: TFrame3
                   object ScrollBox20: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel39: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -1250,7 +1463,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -1258,7 +1471,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -1274,7 +1487,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 124
+                          Height = 138
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1294,7 +1507,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -1302,7 +1515,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -1318,7 +1531,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 124
+                          Height = 138
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1348,8 +1561,8 @@ object Frame3: TFrame3
               object PageControl9: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet41
                 Align = alClient
                 TabOrder = 0
@@ -1361,15 +1574,15 @@ object Frame3: TFrame3
                   object ScrollBox24: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel49: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -1403,7 +1616,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -1411,7 +1624,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -1427,7 +1640,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1447,7 +1660,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -1455,7 +1668,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -1471,7 +1684,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1499,15 +1712,15 @@ object Frame3: TFrame3
                   object ScrollBox25: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel54: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -1541,7 +1754,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -1549,7 +1762,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -1565,7 +1778,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1585,7 +1798,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -1593,7 +1806,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -1609,7 +1822,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1637,15 +1850,15 @@ object Frame3: TFrame3
                   object ScrollBox26: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel59: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -1679,7 +1892,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -1687,7 +1900,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -1703,7 +1916,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1723,7 +1936,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -1731,7 +1944,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -1747,7 +1960,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1775,15 +1988,15 @@ object Frame3: TFrame3
                   object ScrollBox27: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel44: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -1817,7 +2030,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -1825,7 +2038,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -1841,7 +2054,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1861,7 +2074,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -1869,7 +2082,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -1885,7 +2098,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -1915,8 +2128,8 @@ object Frame3: TFrame3
               object PageControl10: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet55
                 Align = alClient
                 TabOrder = 0
@@ -1928,15 +2141,15 @@ object Frame3: TFrame3
                   object ScrollBox31: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel69: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -1970,7 +2183,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -1978,7 +2191,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -1994,7 +2207,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2014,7 +2227,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -2022,7 +2235,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -2038,7 +2251,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2066,15 +2279,15 @@ object Frame3: TFrame3
                   object ScrollBox30: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel74: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -2108,7 +2321,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -2116,7 +2329,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -2132,7 +2345,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2152,7 +2365,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -2160,7 +2373,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -2176,7 +2389,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2204,15 +2417,15 @@ object Frame3: TFrame3
                   object ScrollBox29: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel79: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -2246,7 +2459,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -2254,7 +2467,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -2270,7 +2483,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2290,7 +2503,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -2298,7 +2511,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -2314,7 +2527,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2342,15 +2555,15 @@ object Frame3: TFrame3
                   object ScrollBox28: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel64: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -2384,7 +2597,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -2392,7 +2605,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -2408,7 +2621,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2428,7 +2641,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -2436,7 +2649,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -2452,7 +2665,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2482,8 +2695,8 @@ object Frame3: TFrame3
               object PageControl11: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet46
                 Align = alClient
                 TabOrder = 0
@@ -2495,15 +2708,15 @@ object Frame3: TFrame3
                   object ScrollBox32: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel99: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -2537,7 +2750,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -2545,7 +2758,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -2561,7 +2774,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2581,7 +2794,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -2589,7 +2802,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -2605,7 +2818,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2633,15 +2846,15 @@ object Frame3: TFrame3
                   object ScrollBox33: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel94: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -2675,7 +2888,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -2683,7 +2896,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -2699,7 +2912,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2719,7 +2932,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -2727,7 +2940,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -2743,7 +2956,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2771,15 +2984,15 @@ object Frame3: TFrame3
                   object ScrollBox34: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel89: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -2813,7 +3026,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -2821,7 +3034,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -2837,7 +3050,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2857,7 +3070,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -2865,7 +3078,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -2881,7 +3094,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2909,15 +3122,15 @@ object Frame3: TFrame3
                   object ScrollBox35: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel84: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -2951,7 +3164,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -2959,7 +3172,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -2975,7 +3188,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -2995,7 +3208,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -3003,7 +3216,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -3019,7 +3232,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3049,8 +3262,8 @@ object Frame3: TFrame3
               object PageControl12: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet47
                 Align = alClient
                 TabOrder = 0
@@ -3062,15 +3275,15 @@ object Frame3: TFrame3
                   object ScrollBox36: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel119: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -3104,7 +3317,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -3112,7 +3325,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -3128,7 +3341,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3148,7 +3361,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -3156,7 +3369,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -3172,7 +3385,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3200,15 +3413,15 @@ object Frame3: TFrame3
                   object ScrollBox37: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel114: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -3242,7 +3455,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -3250,7 +3463,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -3266,7 +3479,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3286,7 +3499,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -3294,7 +3507,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -3310,7 +3523,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3338,15 +3551,15 @@ object Frame3: TFrame3
                   object ScrollBox38: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel109: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -3380,7 +3593,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -3388,7 +3601,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -3404,7 +3617,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3424,7 +3637,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -3432,7 +3645,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -3448,7 +3661,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3476,15 +3689,15 @@ object Frame3: TFrame3
                   object ScrollBox39: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel104: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -3518,7 +3731,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -3526,7 +3739,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -3542,7 +3755,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3562,7 +3775,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -3570,7 +3783,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -3586,7 +3799,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3616,8 +3829,8 @@ object Frame3: TFrame3
               object PageControl13: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet48
                 Align = alClient
                 TabOrder = 0
@@ -3629,15 +3842,15 @@ object Frame3: TFrame3
                   object ScrollBox43: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel139: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -3671,7 +3884,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -3679,7 +3892,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -3695,7 +3908,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3715,7 +3928,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -3723,7 +3936,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -3739,7 +3952,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3767,15 +3980,15 @@ object Frame3: TFrame3
                   object ScrollBox42: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel134: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -3809,7 +4022,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -3817,7 +4030,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -3833,7 +4046,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3853,7 +4066,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -3861,7 +4074,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -3877,7 +4090,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3905,15 +4118,15 @@ object Frame3: TFrame3
                   object ScrollBox41: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel129: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -3947,7 +4160,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -3955,7 +4168,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -3971,7 +4184,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -3991,7 +4204,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -3999,7 +4212,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -4015,7 +4228,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4043,15 +4256,15 @@ object Frame3: TFrame3
                   object ScrollBox40: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel124: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -4085,7 +4298,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -4093,7 +4306,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -4109,7 +4322,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4129,7 +4342,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -4137,7 +4350,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -4153,7 +4366,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4183,8 +4396,8 @@ object Frame3: TFrame3
               object PageControl14: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet49
                 Align = alClient
                 TabOrder = 0
@@ -4196,15 +4409,15 @@ object Frame3: TFrame3
                   object ScrollBox44: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel144: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -4238,7 +4451,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -4246,7 +4459,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -4262,7 +4475,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4282,7 +4495,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -4290,7 +4503,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -4306,7 +4519,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4334,15 +4547,15 @@ object Frame3: TFrame3
                   object ScrollBox45: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel149: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -4376,7 +4589,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -4384,7 +4597,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -4400,7 +4613,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4420,7 +4633,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -4428,7 +4641,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -4444,7 +4657,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4472,15 +4685,15 @@ object Frame3: TFrame3
                   object ScrollBox46: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel154: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -4514,7 +4727,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -4522,7 +4735,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -4538,7 +4751,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4558,7 +4771,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -4566,7 +4779,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -4582,7 +4795,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4610,15 +4823,15 @@ object Frame3: TFrame3
                   object ScrollBox47: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel159: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -4652,7 +4865,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -4660,7 +4873,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -4676,7 +4889,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4696,7 +4909,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -4704,7 +4917,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -4720,7 +4933,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4750,8 +4963,8 @@ object Frame3: TFrame3
               object PageControl15: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet50
                 Align = alClient
                 TabOrder = 0
@@ -4763,15 +4976,15 @@ object Frame3: TFrame3
                   object ScrollBox48: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel179: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -4805,7 +5018,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -4813,7 +5026,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -4829,7 +5042,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4849,7 +5062,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -4857,7 +5070,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -4873,7 +5086,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4901,15 +5114,15 @@ object Frame3: TFrame3
                   object ScrollBox49: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel174: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -4943,7 +5156,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -4951,7 +5164,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -4967,7 +5180,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -4987,7 +5200,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -4995,7 +5208,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -5011,7 +5224,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5039,15 +5252,15 @@ object Frame3: TFrame3
                   object ScrollBox50: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel169: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -5081,7 +5294,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -5089,7 +5302,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -5105,7 +5318,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5125,7 +5338,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -5133,7 +5346,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -5149,7 +5362,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5177,15 +5390,15 @@ object Frame3: TFrame3
                   object ScrollBox51: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel164: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -5219,7 +5432,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -5227,7 +5440,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -5243,7 +5456,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5263,7 +5476,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -5271,7 +5484,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -5287,7 +5500,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5317,9 +5530,9 @@ object Frame3: TFrame3
               object PageControl16: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
-                ActivePage = TabSheet73
+                Width = 696
+                Height = 414
+                ActivePage = TabSheet72
                 Align = alClient
                 TabOrder = 0
                 object TabSheet51: TAC_TabSheet
@@ -5330,15 +5543,15 @@ object Frame3: TFrame3
                   object ScrollBox52: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel189: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -5372,7 +5585,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -5380,7 +5593,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -5396,7 +5609,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5416,7 +5629,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -5424,7 +5637,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -5440,7 +5653,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5468,15 +5681,15 @@ object Frame3: TFrame3
                   object ScrollBox53: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel194: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -5510,7 +5723,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -5518,7 +5731,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -5534,7 +5747,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5554,7 +5767,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -5562,7 +5775,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -5578,7 +5791,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5606,15 +5819,15 @@ object Frame3: TFrame3
                   object ScrollBox54: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel199: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -5648,7 +5861,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -5656,7 +5869,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -5672,7 +5885,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5692,7 +5905,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -5700,7 +5913,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -5716,7 +5929,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5744,15 +5957,15 @@ object Frame3: TFrame3
                   object ScrollBox55: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel184: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -5786,7 +5999,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -5794,7 +6007,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -5810,7 +6023,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5830,7 +6043,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -5838,7 +6051,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -5854,7 +6067,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5884,8 +6097,8 @@ object Frame3: TFrame3
               object PageControl17: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet52
                 Align = alClient
                 TabOrder = 0
@@ -5897,15 +6110,15 @@ object Frame3: TFrame3
                   object ScrollBox56: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel219: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -5939,7 +6152,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -5947,7 +6160,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -5963,7 +6176,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -5983,7 +6196,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -5991,7 +6204,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -6007,7 +6220,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6035,15 +6248,15 @@ object Frame3: TFrame3
                   object ScrollBox57: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel214: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -6077,7 +6290,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -6085,7 +6298,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -6101,7 +6314,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6121,7 +6334,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -6129,7 +6342,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -6145,7 +6358,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6173,15 +6386,15 @@ object Frame3: TFrame3
                   object ScrollBox58: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel209: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -6215,7 +6428,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -6223,7 +6436,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -6239,7 +6452,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6259,7 +6472,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -6267,7 +6480,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -6283,7 +6496,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6311,15 +6524,15 @@ object Frame3: TFrame3
                   object ScrollBox59: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel204: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -6353,7 +6566,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -6361,7 +6574,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -6377,7 +6590,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6397,7 +6610,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -6405,7 +6618,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -6421,7 +6634,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6451,8 +6664,8 @@ object Frame3: TFrame3
               object AC_PageControl2: TAC_PageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet81
                 Align = alClient
                 TabOrder = 0
@@ -6464,15 +6677,15 @@ object Frame3: TFrame3
                   object ScrollBox63: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel224: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -6506,7 +6719,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -6514,7 +6727,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -6530,7 +6743,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6550,7 +6763,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -6558,7 +6771,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -6574,7 +6787,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6602,15 +6815,15 @@ object Frame3: TFrame3
                   object ScrollBox61: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel229: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -6644,7 +6857,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -6652,7 +6865,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -6668,7 +6881,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6688,7 +6901,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -6696,7 +6909,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -6712,7 +6925,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6740,15 +6953,15 @@ object Frame3: TFrame3
                   object ScrollBox62: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel234: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -6782,7 +6995,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -6790,7 +7003,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -6806,7 +7019,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6826,7 +7039,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -6834,7 +7047,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -6850,7 +7063,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6878,15 +7091,15 @@ object Frame3: TFrame3
                   object ScrollBox60: TJvScrollBox
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
+                    Width = 688
+                    Height = 386
                     Align = alClient
                     TabOrder = 0
                     object Panel239: TJvPanel
                       Left = 0
                       Top = 0
                       Width = 145
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel5'
                       TabOrder = 0
@@ -6920,7 +7133,7 @@ object Frame3: TFrame3
                       Left = 145
                       Top = 0
                       Width = 648
-                      Height = 351
+                      Height = 365
                       Align = alLeft
                       Caption = 'Panel2'
                       TabOrder = 1
@@ -6928,7 +7141,7 @@ object Frame3: TFrame3
                         Left = 1
                         Top = 1
                         Width = 164
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel2'
                         TabOrder = 0
@@ -6944,7 +7157,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 41
                           Width = 162
-                          Height = 307
+                          Height = 321
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -6964,7 +7177,7 @@ object Frame3: TFrame3
                         Left = 165
                         Top = 1
                         Width = 20
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         TabOrder = 1
                       end
@@ -6972,7 +7185,7 @@ object Frame3: TFrame3
                         Left = 185
                         Top = 1
                         Width = 167
-                        Height = 349
+                        Height = 363
                         Align = alLeft
                         Caption = 'Panel6'
                         TabOrder = 2
@@ -6988,7 +7201,7 @@ object Frame3: TFrame3
                           Left = 1
                           Top = 40
                           Width = 162
-                          Height = 308
+                          Height = 322
                           Align = alCustom
                           Anchors = [akLeft, akTop, akBottom]
                           ItemHeight = 13
@@ -7019,8 +7232,8 @@ object Frame3: TFrame3
       object PageControl3: TAC_PageControl
         Left = 0
         Top = 0
-        Width = 711
-        Height = 456
+        Width = 712
+        Height = 470
         ActivePage = TabSheet12
         Align = alClient
         PopupMenu = form_popup
@@ -7034,30 +7247,89 @@ object Frame3: TFrame3
           object ScrollBox3: TJvScrollBox
             Left = 0
             Top = 0
-            Width = 703
-            Height = 428
+            Width = 704
+            Height = 442
             Align = alClient
+            Color = clNavy
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Height = -11
+            Font.Name = 'MS Sans Serif'
+            Font.Style = []
+            ParentColor = False
+            ParentFont = False
             TabOrder = 0
             object Label3: TJvLabel
               Left = 8
               Top = 8
-              Width = 92
+              Width = 111
               Height = 13
               Caption = 'Binding Addresses:'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -11
+              Font.Name = 'MS Sans Serif'
+              Font.Style = [fsBold]
+              ParentFont = False
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
             object Label4: TJvLabel
               Left = 168
               Top = 8
-              Width = 129
+              Width = 157
               Height = 13
               Caption = 'Port'#39's seperate with space:'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -11
+              Font.Name = 'MS Sans Serif'
+              Font.Style = [fsBold]
+              ParentFont = False
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
             object Label5: TJvLabel
               Left = 432
               Top = 8
-              Width = 47
+              Width = 59
               Height = 13
               Caption = 'Statistics:'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -11
+              Font.Name = 'MS Sans Serif'
+              Font.Style = [fsBold]
+              ParentFont = False
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
+            end
+            object JvLabel3: TJvLabel
+              Left = 8
+              Top = 232
+              Width = 32
+              Height = 13
+              Caption = 'misc:'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -11
+              Font.Name = 'MS Sans Serif'
+              Font.Style = [fsBold]
+              ParentFont = False
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
             object listen_add_btn: TJvImgBtn
               Left = 7
@@ -7067,6 +7339,11 @@ object Frame3: TFrame3
               Caption = 'Add'
               TabOrder = 0
               OnClick = listen_add_btnClick
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
             object listen_del_btn: TJvImgBtn
               Left = 91
@@ -7076,6 +7353,11 @@ object Frame3: TFrame3
               Caption = 'Delete'
               TabOrder = 1
               OnClick = listen_del_btnClick
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
             object listen_edit_ip: TJvEdit
               Left = 8
@@ -7099,6 +7381,11 @@ object Frame3: TFrame3
               Height = 33
               Caption = 'Server Running'
               Color = LED_Yellow
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -13
+              Font.Name = 'MS Sans Serif'
+              Font.Style = []
             end
             object Button1: TJvImgBtn
               Left = 344
@@ -7107,6 +7394,11 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'Ping'
               TabOrder = 5
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
             object Button4: TJvImgBtn
               Left = 344
@@ -7115,6 +7407,11 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'DNS Lookup'
               TabOrder = 6
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
             object Memo1: TMemo
               Left = 432
@@ -7144,8 +7441,40 @@ object Frame3: TFrame3
               Width = 65
               Height = 17
               Caption = 'Select All'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -11
+              Font.Name = 'MS Sans Serif'
+              Font.Style = []
+              ParentFont = False
               TabOrder = 9
               LinkedControls = <>
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
+            end
+            object Memo4: TMemo
+              Left = 8
+              Top = 248
+              Width = 257
+              Height = 113
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -11
+              Font.Name = 'Courier New'
+              Font.Style = []
+              Lines.Strings = (
+                'Timeout              300'
+                'KeepAliveTimeout     5'
+                'HostnameLookups      On'
+                'KeepAlive            On'
+                'MaxKeepAliveRequests 100')
+              ParentFont = False
+              ScrollBars = ssBoth
+              TabOrder = 10
+              WordWrap = False
             end
           end
         end
@@ -7158,25 +7487,49 @@ object Frame3: TFrame3
           object ScrollBox14: TJvScrollBox
             Left = 0
             Top = 0
-            Width = 703
-            Height = 428
+            Width = 704
+            Height = 442
             Align = alClient
+            Color = clNavy
+            ParentColor = False
             TabOrder = 0
             object Label8: TJvLabel
               Left = 8
               Top = 8
-              Width = 58
+              Width = 69
               Height = 13
               Caption = 'User Name:'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -11
+              Font.Name = 'MS Sans Serif'
+              Font.Style = [fsBold]
+              ParentFont = False
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
             object Label10: TJvLabel
               Left = 168
               Top = 8
-              Width = 45
+              Width = 53
               Height = 13
               Caption = 'Members'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -11
+              Font.Name = 'MS Sans Serif'
+              Font.Style = [fsBold]
+              ParentFont = False
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
-            object ListBox3: TListBox
+            object ListBox3: TJvCheckListBox
               Left = 8
               Top = 24
               Width = 145
@@ -7191,6 +7544,7 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'Add'
               TabOrder = 1
+              OnClick = Button7Click
             end
             object Button8: TJvImgBtn
               Left = 91
@@ -7199,6 +7553,7 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'Delete'
               TabOrder = 2
+              OnClick = Button8Click
             end
             object Edit6: TJvEdit
               Left = 8
@@ -7206,9 +7561,8 @@ object Frame3: TFrame3
               Width = 305
               Height = 21
               TabOrder = 3
-              Text = 'Edit3'
             end
-            object ListBox5: TListBox
+            object ListBox5: TJvCheckListBox
               Left = 168
               Top = 24
               Width = 145
@@ -7223,6 +7577,7 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'Add'
               TabOrder = 5
+              OnClick = Button9Click
             end
             object Button10: TJvImgBtn
               Left = 251
@@ -7231,6 +7586,7 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'Delete'
               TabOrder = 6
+              OnClick = Button10Click
             end
           end
         end
@@ -7240,25 +7596,49 @@ object Frame3: TFrame3
           object ScrollBox64: TJvScrollBox
             Left = 0
             Top = 0
-            Width = 703
-            Height = 428
+            Width = 704
+            Height = 442
             Align = alClient
+            Color = clNavy
+            ParentColor = False
             TabOrder = 0
             object Label11: TJvLabel
               Left = 8
               Top = 8
-              Width = 65
+              Width = 77
               Height = 13
               Caption = 'Group Name:'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -11
+              Font.Name = 'MS Sans Serif'
+              Font.Style = [fsBold]
+              ParentFont = False
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -11
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
             object Label12: TJvLabel
               Left = 168
               Top = 8
-              Width = 45
+              Width = 53
               Height = 13
               Caption = 'Members'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clYellow
+              Font.Height = -12
+              Font.Name = 'MS Sans Serif'
+              Font.Style = [fsBold]
+              ParentFont = False
+              HotTrackFont.Charset = DEFAULT_CHARSET
+              HotTrackFont.Color = clWindowText
+              HotTrackFont.Height = -12
+              HotTrackFont.Name = 'MS Sans Serif'
+              HotTrackFont.Style = []
             end
-            object ListBox7: TListBox
+            object ListBox7: TJvCheckListBox
               Left = 8
               Top = 24
               Width = 145
@@ -7273,6 +7653,7 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'Add'
               TabOrder = 1
+              OnClick = Button15Click
             end
             object Button16: TJvImgBtn
               Left = 91
@@ -7281,6 +7662,7 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'Delete'
               TabOrder = 2
+              OnClick = Button16Click
             end
             object Edit10: TJvEdit
               Left = 8
@@ -7288,9 +7670,8 @@ object Frame3: TFrame3
               Width = 305
               Height = 21
               TabOrder = 3
-              Text = 'Edit3'
             end
-            object ListBox8: TListBox
+            object ListBox8: TJvCheckListBox
               Left = 168
               Top = 24
               Width = 145
@@ -7305,6 +7686,7 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'Add'
               TabOrder = 5
+              OnClick = Button17Click
             end
             object Button18: TJvImgBtn
               Left = 251
@@ -7313,6 +7695,7 @@ object Frame3: TFrame3
               Height = 25
               Caption = 'Delete'
               TabOrder = 6
+              OnClick = Button18Click
             end
           end
         end
@@ -7322,8 +7705,8 @@ object Frame3: TFrame3
           object PageControl18: TJvPageControl
             Left = 0
             Top = 0
-            Width = 703
-            Height = 428
+            Width = 704
+            Height = 442
             ActivePage = TabSheet15
             Align = alClient
             PopupMenu = form_popup
@@ -7336,8 +7719,8 @@ object Frame3: TFrame3
               object PageControl19: TJvPageControl
                 Left = 0
                 Top = 0
-                Width = 695
-                Height = 400
+                Width = 696
+                Height = 414
                 ActivePage = TabSheet83
                 Align = alClient
                 PopupMenu = form_popup
@@ -7350,9 +7733,9 @@ object Frame3: TFrame3
                   object PageControl21: TJvPageControl
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
-                    ActivePage = TabSheet90
+                    Width = 688
+                    Height = 386
+                    ActivePage = TabSheet89
                     Align = alClient
                     TabOrder = 0
                     object TabSheet89: TTabSheet
@@ -7361,50 +7744,205 @@ object Frame3: TFrame3
                       object ScrollBox70: TJvScrollBox
                         Left = 0
                         Top = 0
-                        Width = 679
-                        Height = 344
+                        Width = 680
+                        Height = 358
                         Align = alClient
-                        Color = clGray
+                        Color = clNavy
                         ParentColor = False
                         TabOrder = 0
                         object Label30: TJvLabel
                           Left = 160
                           Top = 8
-                          Width = 88
+                          Width = 106
                           Height = 13
                           Caption = 'Default Templates'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -11
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -11
+                          HotTrackFont.Name = 'MS Sans Serif'
+                          HotTrackFont.Style = []
                         end
-                        object Label31: TJvLabel
+                        object JvLabel1: TJvLabel
                           Left = 376
                           Top = 8
-                          Width = 59
-                          Height = 13
-                          Caption = 'Customized:'
+                          Width = 138
+                          Height = 15
+                          Caption = 'Customized: Conditions:'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -12
+                          HotTrackFont.Name = 'Arial'
+                          HotTrackFont.Style = []
+                        end
+                        object JvLabel2: TJvLabel
+                          Left = 608
+                          Top = 8
+                          Width = 107
+                          Height = 15
+                          Caption = 'Customized Rules:'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -12
+                          HotTrackFont.Name = 'Arial'
+                          HotTrackFont.Style = []
                         end
                         object CheckBox10: TJvCheckBox
                           Left = 8
                           Top = 8
-                          Width = 54
+                          Width = 61
                           Height = 17
                           Caption = 'Enable'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -11
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
+                          ParentFont = False
                           TabOrder = 0
                           LinkedControls = <>
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -11
+                          HotTrackFont.Name = 'MS Sans Serif'
+                          HotTrackFont.Style = []
                         end
                         object CheckBox11: TJvCheckBox
                           Left = 8
                           Top = 32
-                          Width = 92
+                          Width = 108
                           Height = 17
                           Caption = 'Global Settings'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -12
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
+                          ParentFont = False
                           TabOrder = 1
                           LinkedControls = <>
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -12
+                          HotTrackFont.Name = 'MS Sans Serif'
+                          HotTrackFont.Style = []
                         end
-                        object CheckListBox5: TJvCheckListBox
+                        object RadioGroup4: TRadioGroup
+                          Left = 8
+                          Top = 56
+                          Width = 137
+                          Height = 129
+                          Caption = ' LogLevel: '
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -11
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          TabOrder = 2
+                        end
+                        object ComboBox3: TJvComboBox
+                          Left = 16
+                          Top = 80
+                          Width = 121
+                          Height = 21
+                          TabOrder = 3
+                          Items.Strings = (
+                            'trace1'
+                            'trace2'
+                            'trace3')
+                        end
+                        object RadioButton8: TJvRadioButton
+                          Left = 16
+                          Top = 112
+                          Width = 47
+                          Height = 17
+                          Alignment = taLeftJustify
+                          Caption = ' info'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -11
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          TabOrder = 4
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -11
+                          HotTrackFont.Name = 'MS Sans Serif'
+                          HotTrackFont.Style = []
+                          LinkedControls = <>
+                        end
+                        object RadioButton9: TJvRadioButton
+                          Left = 16
+                          Top = 136
+                          Width = 53
+                          Height = 17
+                          Alignment = taLeftJustify
+                          Caption = ' warn'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -11
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          TabOrder = 5
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -11
+                          HotTrackFont.Name = 'MS Sans Serif'
+                          HotTrackFont.Style = []
+                          LinkedControls = <>
+                        end
+                        object RadioButton10: TJvRadioButton
+                          Left = 16
+                          Top = 160
+                          Width = 52
+                          Height = 17
+                          Alignment = taLeftJustify
+                          Caption = ' error'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -11
+                          Font.Name = 'MS Sans Serif'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          TabOrder = 6
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -11
+                          HotTrackFont.Name = 'MS Sans Serif'
+                          HotTrackFont.Style = []
+                          LinkedControls = <>
+                        end
+                        object JvCheckListBox1: TJvCheckListBox
                           Left = 160
                           Top = 24
                           Width = 201
-                          Height = 113
-                          ItemHeight = 13
+                          Height = 129
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ItemHeight = 15
                           Items.Strings = (
                             'compress files'
                             'redirect hotlinkers'
@@ -7414,74 +7952,308 @@ object Frame3: TFrame3
                             'denied badly formed HTTP prot.'
                             'dienies exploits using bogus graphics'
                             'dienies track back spam')
-                          TabOrder = 2
-                        end
-                        object RadioGroup4: TRadioGroup
-                          Left = 8
-                          Top = 56
-                          Width = 137
-                          Height = 129
-                          Caption = ' LogLevel: '
-                          TabOrder = 3
-                        end
-                        object ComboBox3: TJvComboBox
-                          Left = 16
-                          Top = 80
-                          Width = 121
-                          Height = 21
-                          TabOrder = 4
-                          Items.Strings = (
-                            'trace1'
-                            'trace2'
-                            'trace3')
-                        end
-                        object RadioButton8: TJvRadioButton
-                          Left = 16
-                          Top = 112
-                          Width = 41
-                          Height = 17
-                          Alignment = taLeftJustify
-                          Caption = ' info'
-                          TabOrder = 5
-                          LinkedControls = <>
-                        end
-                        object RadioButton9: TJvRadioButton
-                          Left = 16
-                          Top = 136
-                          Width = 47
-                          Height = 17
-                          Alignment = taLeftJustify
-                          Caption = ' warn'
-                          TabOrder = 6
-                          LinkedControls = <>
-                        end
-                        object RadioButton10: TJvRadioButton
-                          Left = 16
-                          Top = 160
-                          Width = 45
-                          Height = 17
-                          Alignment = taLeftJustify
-                          Caption = ' error'
+                          ParentFont = False
                           TabOrder = 7
-                          LinkedControls = <>
+                          OnDblClick = rewrite_template_boxDblClick
+                          OnMouseDown = rewrite_template_boxMouseDown
                         end
-                        object CheckBox12: TJvCheckBox
-                          Left = 160
-                          Top = 152
-                          Width = 111
-                          Height = 17
-                          Caption = 'Require All granted'
-                          TabOrder = 8
-                          LinkedControls = <>
-                        end
-                        object Memo4: TMemo
+                        object Memo2: TMemo
                           Left = 376
                           Top = 24
-                          Width = 185
-                          Height = 113
+                          Width = 217
+                          Height = 129
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
                           Lines.Strings = (
                             'Memo3')
+                          ParentFont = False
+                          PopupMenu = PopupMenu1
+                          ScrollBars = ssBoth
+                          TabOrder = 8
+                          WordWrap = False
+                          OnMouseDown = rewrite_custom_memo1MouseDown
+                        end
+                        object Memo3: TMemo
+                          Left = 610
+                          Top = 24
+                          Width = 217
+                          Height = 129
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          Lines.Strings = (
+                            'Memo3')
+                          ParentFont = False
+                          PopupMenu = PopupMenu1
+                          ScrollBars = ssBoth
                           TabOrder = 9
+                          WordWrap = False
+                        end
+                        object JvImgBtn2: TJvImgBtn
+                          Left = 160
+                          Top = 160
+                          Width = 75
+                          Height = 25
+                          Caption = 'Add'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 10
+                          OnClick = rewrite_btn_addClick
+                          Color = 8454016
+                        end
+                        object JvImgBtn3: TJvImgBtn
+                          Left = 282
+                          Top = 160
+                          Width = 75
+                          Height = 25
+                          Caption = 'Delete'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 11
+                          OnClick = rewrite_btn_delClick
+                          Color = 8421631
+                        end
+                        object JvImgBtn4: TJvImgBtn
+                          Left = 376
+                          Top = 160
+                          Width = 75
+                          Height = 25
+                          Caption = 'Save'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 12
+                          OnClick = rewrite_custom_saveClick
+                          Color = 16777088
+                        end
+                        object JvImgBtn5: TJvImgBtn
+                          Left = 517
+                          Top = 160
+                          Width = 75
+                          Height = 25
+                          Caption = 'Clear'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = []
+                          ParentFont = False
+                          PopupMenu = form_popup
+                          TabOrder = 13
+                          OnClick = rewrite_memo_clr_btnClick
+                          Color = 8421631
+                        end
+                        object JvPageControl1: TJvPageControl
+                          Left = 8
+                          Top = 189
+                          Width = 850
+                          Height = 158
+                          ActivePage = TabSheet2
+                          PopupMenu = form_popup
+                          TabOrder = 14
+                          ParentColor = False
+                          Color = 8454143
+                          object TabSheet2: TTabSheet
+                            Caption = 'ACL - Directory'
+                            object JvScrollBox1: TJvScrollBox
+                              Left = 0
+                              Top = 0
+                              Width = 842
+                              Height = 130
+                              HorzScrollBar.Color = clLime
+                              HorzScrollBar.ParentColor = False
+                              VertScrollBar.Color = clLime
+                              VertScrollBar.ParentColor = False
+                              VertScrollBar.Style = ssHotTrack
+                              Align = alClient
+                              Ctl3D = False
+                              ParentCtl3D = False
+                              PopupMenu = form_popup
+                              TabOrder = 0
+                              object JvCheckListBox2: TJvCheckListBox
+                                Left = 8
+                                Top = 24
+                                Width = 217
+                                Height = 97
+                                Font.Charset = DEFAULT_CHARSET
+                                Font.Color = clWindowText
+                                Font.Height = -11
+                                Font.Name = 'Arial'
+                                Font.Style = []
+                                ItemHeight = 14
+                                ParentFont = False
+                                PopupMenu = PopupMenu1
+                                TabOrder = 0
+                                OnMouseMove = rewrite_checkbox_dirMouseMove
+                              end
+                              object JvCheckBox1: TJvCheckBox
+                                Left = 8
+                                Top = 6
+                                Width = 70
+                                Height = 17
+                                Caption = 'Select All'
+                                Font.Charset = DEFAULT_CHARSET
+                                Font.Color = clWindowText
+                                Font.Height = -12
+                                Font.Name = 'Arial'
+                                Font.Style = []
+                                ParentFont = False
+                                PopupMenu = form_popup
+                                TabOrder = 1
+                                LinkedControls = <>
+                              end
+                              object JvCheckListBox3: TJvCheckListBox
+                                Left = 344
+                                Top = 24
+                                Width = 137
+                                Height = 97
+                                ItemHeight = 13
+                                Items.Strings = (
+                                  'valid-user'
+                                  'require all')
+                                PopupMenu = PopupMenu1
+                                TabOrder = 2
+                              end
+                              object JvCheckBox2: TJvCheckBox
+                                Left = 344
+                                Top = 6
+                                Width = 70
+                                Height = 17
+                                Caption = 'Select All'
+                                Font.Charset = DEFAULT_CHARSET
+                                Font.Color = clWindowText
+                                Font.Height = -12
+                                Font.Name = 'Arial'
+                                Font.Style = []
+                                ParentFont = False
+                                PopupMenu = form_popup
+                                TabOrder = 3
+                                LinkedControls = <>
+                              end
+                              object JvImgBtn6: TJvImgBtn
+                                Left = 512
+                                Top = 16
+                                Width = 75
+                                Height = 25
+                                Caption = 'Add'
+                                PopupMenu = form_popup
+                                TabOrder = 4
+                                Color = 8454016
+                              end
+                              object JvImgBtn7: TJvImgBtn
+                                Left = 240
+                                Top = 96
+                                Width = 75
+                                Height = 25
+                                Hint = 'Delete a Directory index in the list'
+                                Caption = 'Delete'
+                                Font.Charset = DEFAULT_CHARSET
+                                Font.Color = clBlack
+                                Font.Height = -12
+                                Font.Name = 'Arial'
+                                Font.Style = []
+                                ParentFont = False
+                                TabOrder = 5
+                                OnClick = rewrite_del_dir_btnClick
+                                Color = 8421631
+                                HotTrackFont.Charset = DEFAULT_CHARSET
+                                HotTrackFont.Color = clWindowText
+                                HotTrackFont.Height = -12
+                                HotTrackFont.Name = 'Arial'
+                                HotTrackFont.Style = []
+                              end
+                              object JvImgBtn8: TJvImgBtn
+                                Left = 240
+                                Top = 21
+                                Width = 75
+                                Height = 25
+                                Hint = 'Add a new directory to the ACL List'
+                                Caption = 'Add'
+                                Font.Charset = DEFAULT_CHARSET
+                                Font.Color = clBlack
+                                Font.Height = -12
+                                Font.Name = 'Arial'
+                                Font.Style = []
+                                ParentFont = False
+                                PopupMenu = form_popup
+                                TabOrder = 6
+                                OnClick = rewrite_add_dir_btnClick
+                                Color = 8454016
+                                HotTrackFont.Charset = DEFAULT_CHARSET
+                                HotTrackFont.Color = clWindowText
+                                HotTrackFont.Height = -12
+                                HotTrackFont.Name = 'Arial'
+                                HotTrackFont.Style = []
+                              end
+                              object JvImgBtn9: TJvImgBtn
+                                Left = 512
+                                Top = 96
+                                Width = 75
+                                Height = 25
+                                Hint = 'Delete a Directory index in the list'
+                                Caption = 'Delete'
+                                Font.Charset = DEFAULT_CHARSET
+                                Font.Color = clBlack
+                                Font.Height = -12
+                                Font.Name = 'Arial'
+                                Font.Style = []
+                                ParentFont = False
+                                TabOrder = 7
+                                OnClick = rewrite_del_dir_btnClick
+                                Color = 8421631
+                                HotTrackFont.Charset = DEFAULT_CHARSET
+                                HotTrackFont.Color = clWindowText
+                                HotTrackFont.Height = -12
+                                HotTrackFont.Name = 'Arial'
+                                HotTrackFont.Style = []
+                              end
+                              object JvImgBtn10: TJvImgBtn
+                                Left = 240
+                                Top = 59
+                                Width = 75
+                                Height = 25
+                                Caption = 'Save'
+                                Font.Charset = DEFAULT_CHARSET
+                                Font.Color = clWindowText
+                                Font.Height = -12
+                                Font.Name = 'Arial'
+                                Font.Style = []
+                                ParentFont = False
+                                PopupMenu = form_popup
+                                TabOrder = 8
+                                OnClick = rewrite_save_dir_btnClick
+                                Color = 16777088
+                              end
+                            end
+                          end
+                        end
+                        object JvPanel1: TJvPanel
+                          Left = -191
+                          Top = 344
+                          Width = 849
+                          Height = 25
+                          Color = clNavy
+                          PopupMenu = form_popup
+                          TabOrder = 15
                         end
                       end
                     end
@@ -7491,8 +8263,8 @@ object Frame3: TFrame3
                       object ScrollBox71: TJvScrollBox
                         Left = 0
                         Top = 0
-                        Width = 679
-                        Height = 344
+                        Width = 680
+                        Height = 358
                         Align = alClient
                         Color = clGray
                         ParentColor = False
@@ -7508,7 +8280,7 @@ object Frame3: TFrame3
                           Left = 8
                           Top = 16
                           Width = 209
-                          Height = 145
+                          Height = 217
                           ItemHeight = 13
                           Items.Strings = (
                             '100 - Continue'
@@ -7594,7 +8366,7 @@ object Frame3: TFrame3
                           Left = 384
                           Top = 16
                           Width = 185
-                          Height = 145
+                          Height = 217
                           Lines.Strings = (
                             'Memo2')
                           TabOrder = 3
@@ -7625,8 +8397,8 @@ object Frame3: TFrame3
                       object ScrollBox72: TJvScrollBox
                         Left = 0
                         Top = 0
-                        Width = 679
-                        Height = 344
+                        Width = 680
+                        Height = 358
                         Align = alClient
                         Color = 8421440
                         ParentColor = False
@@ -7842,8 +8614,8 @@ object Frame3: TFrame3
                       object PageControl22: TJvPageControl
                         Left = 0
                         Top = 0
-                        Width = 679
-                        Height = 344
+                        Width = 680
+                        Height = 358
                         ActivePage = TabSheet92
                         Align = alClient
                         TabOrder = 0
@@ -7852,8 +8624,8 @@ object Frame3: TFrame3
                           object ScrollBox69: TJvScrollBox
                             Left = 0
                             Top = 0
-                            Width = 671
-                            Height = 316
+                            Width = 672
+                            Height = 330
                             Align = alClient
                             Color = clGray
                             ParentColor = False
@@ -7916,8 +8688,8 @@ object Frame3: TFrame3
                           object ScrollBox73: TJvScrollBox
                             Left = 0
                             Top = 0
-                            Width = 671
-                            Height = 316
+                            Width = 672
+                            Height = 330
                             Align = alClient
                             Color = clGray
                             ParentColor = False
@@ -7984,9 +8756,9 @@ object Frame3: TFrame3
                   object PageControl20: TJvPageControl
                     Left = 0
                     Top = 0
-                    Width = 687
-                    Height = 372
-                    ActivePage = TabSheet85
+                    Width = 688
+                    Height = 386
+                    ActivePage = TabSheet3
                     Align = alClient
                     Font.Charset = DEFAULT_CHARSET
                     Font.Color = clWindowText
@@ -8004,8 +8776,8 @@ object Frame3: TFrame3
                       object ScrollBox67: TJvScrollBox
                         Left = 0
                         Top = 0
-                        Width = 679
-                        Height = 342
+                        Width = 680
+                        Height = 356
                         Align = alClient
                         Color = clGray
                         ParentColor = False
@@ -8108,18 +8880,18 @@ object Frame3: TFrame3
                       object ScrollBox68: TJvScrollBox
                         Left = 0
                         Top = 0
-                        Width = 679
-                        Height = 342
+                        Width = 680
+                        Height = 356
                         HorzScrollBar.Color = 4227327
                         HorzScrollBar.ParentColor = False
                         VertScrollBar.Color = 8454016
                         VertScrollBar.ParentColor = False
                         Align = alClient
-                        Color = 8454143
+                        Color = clNavy
                         ParentColor = False
                         TabOrder = 0
                         object PageControl1: TJvPageControl
-                          Left = -1
+                          Left = 7
                           Top = 202
                           Width = 850
                           Height = 158
@@ -8135,7 +8907,14 @@ object Frame3: TFrame3
                               Top = 0
                               Width = 842
                               Height = 128
+                              HorzScrollBar.Color = clLime
+                              HorzScrollBar.ParentColor = False
+                              VertScrollBar.Color = clLime
+                              VertScrollBar.ParentColor = False
+                              VertScrollBar.Style = ssHotTrack
                               Align = alClient
+                              Ctl3D = False
+                              ParentCtl3D = False
                               PopupMenu = form_popup
                               TabOrder = 0
                               object rewrite_checkbox_dir: TJvCheckListBox
@@ -8176,6 +8955,8 @@ object Frame3: TFrame3
                                 Width = 137
                                 Height = 97
                                 ItemHeight = 15
+                                Items.Strings = (
+                                  'valid-user')
                                 PopupMenu = PopupMenu1
                                 TabOrder = 2
                               end
@@ -8271,6 +9052,23 @@ object Frame3: TFrame3
                                 HotTrackFont.Height = -12
                                 HotTrackFont.Name = 'Arial'
                                 HotTrackFont.Style = []
+                              end
+                              object rewrite_save_dir_btn: TJvImgBtn
+                                Left = 240
+                                Top = 59
+                                Width = 75
+                                Height = 25
+                                Caption = 'Save'
+                                Font.Charset = DEFAULT_CHARSET
+                                Font.Color = clWindowText
+                                Font.Height = -12
+                                Font.Name = 'Arial'
+                                Font.Style = []
+                                ParentFont = False
+                                PopupMenu = form_popup
+                                TabOrder = 8
+                                OnClick = rewrite_save_dir_btnClick
+                                Color = 16777088
                               end
                             end
                           end
@@ -8610,11 +9408,11 @@ object Frame3: TFrame3
                           end
                         end
                         object Panel7: TJvPanel
-                          Left = 0
+                          Left = -8
                           Top = 360
-                          Width = 849
+                          Width = 864
                           Height = 25
-                          Color = 8421440
+                          Color = clNavy
                           PopupMenu = form_popup
                           TabOrder = 2
                         end
@@ -8626,8 +9424,8 @@ object Frame3: TFrame3
                       object ScrollBox66: TJvScrollBox
                         Left = 0
                         Top = 0
-                        Width = 679
-                        Height = 342
+                        Width = 680
+                        Height = 356
                         Align = alClient
                         Color = clGray
                         ParentColor = False
@@ -8761,8 +9559,8 @@ object Frame3: TFrame3
                       object ScrollBox65: TJvScrollBox
                         Left = 0
                         Top = 0
-                        Width = 679
-                        Height = 342
+                        Width = 680
+                        Height = 356
                         Align = alClient
                         TabOrder = 0
                         object server_edit_log_access_lbl: TJvPanel
@@ -8964,8 +9762,8 @@ object Frame3: TFrame3
                       object PageControl23: TJvPageControl
                         Left = 0
                         Top = 0
-                        Width = 679
-                        Height = 342
+                        Width = 680
+                        Height = 356
                         ActivePage = TabSheet95
                         Align = alClient
                         TabOrder = 0
@@ -8974,8 +9772,8 @@ object Frame3: TFrame3
                           object ScrollBox74: TJvScrollBox
                             Left = 0
                             Top = 0
-                            Width = 671
-                            Height = 312
+                            Width = 672
+                            Height = 326
                             Align = alClient
                             Color = clGray
                             ParentColor = False
@@ -9038,8 +9836,8 @@ object Frame3: TFrame3
                           object ScrollBox75: TJvScrollBox
                             Left = 0
                             Top = 0
-                            Width = 671
-                            Height = 312
+                            Width = 672
+                            Height = 326
                             Align = alClient
                             TabOrder = 0
                             object Label188: TJvLabel
@@ -9096,6 +9894,116 @@ object Frame3: TFrame3
                         end
                       end
                     end
+                    object TabSheet3: TTabSheet
+                      Caption = 'M$ - Windows'
+                      ImageIndex = 5
+                      object JvScrollBox2: TJvScrollBox
+                        Left = 0
+                        Top = 0
+                        Width = 680
+                        Height = 356
+                        Align = alClient
+                        Color = clNavy
+                        ParentColor = False
+                        TabOrder = 0
+                        object JvLabel4: TJvLabel
+                          Left = 8
+                          Top = 8
+                          Width = 58
+                          Height = 15
+                          Caption = 'Extension'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -12
+                          HotTrackFont.Name = 'Arial'
+                          HotTrackFont.Style = []
+                        end
+                        object JvLabel5: TJvLabel
+                          Left = 144
+                          Top = 8
+                          Width = 56
+                          Height = 15
+                          Caption = 'LoadFiles'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -12
+                          HotTrackFont.Name = 'Arial'
+                          HotTrackFont.Style = []
+                        end
+                        object JvLabel6: TJvLabel
+                          Left = 344
+                          Top = 8
+                          Width = 29
+                          Height = 15
+                          Caption = 'User'
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clYellow
+                          Font.Height = -12
+                          Font.Name = 'Arial'
+                          Font.Style = [fsBold]
+                          ParentFont = False
+                          HotTrackFont.Charset = DEFAULT_CHARSET
+                          HotTrackFont.Color = clWindowText
+                          HotTrackFont.Height = -12
+                          HotTrackFont.Name = 'Arial'
+                          HotTrackFont.Style = []
+                        end
+                        object JvCheckListBox4: TJvCheckListBox
+                          Left = 8
+                          Top = 24
+                          Width = 121
+                          Height = 97
+                          ItemHeight = 15
+                          Items.Strings = (
+                            'PHP')
+                          TabOrder = 0
+                        end
+                        object JvCheckListBox5: TJvCheckListBox
+                          Left = 144
+                          Top = 24
+                          Width = 185
+                          Height = 97
+                          ItemHeight = 15
+                          Items.Strings = (
+                            '${PHP_DIR}/php7ts.dll'
+                            '${PHP_DIR}/libpq.dll'
+                            '${PHP_DIR}/libsqlite3.dll')
+                          TabOrder = 1
+                        end
+                        object Memo6: TMemo
+                          Left = 344
+                          Top = 24
+                          Width = 249
+                          Height = 97
+                          Font.Charset = DEFAULT_CHARSET
+                          Font.Color = clWindowText
+                          Font.Height = -12
+                          Font.Name = 'Courier New'
+                          Font.Style = []
+                          Lines.Strings = (
+                            'ScriptAlias /local-bin ${PHP_DIR}'
+                            'AddHandler  application/x-httpd-php .php'
+                            'Action      application/x-httpd-php "/local-bin/php-cgi.exe"'
+                            'AddType     text/html .php')
+                          ParentFont = False
+                          ScrollBars = ssBoth
+                          TabOrder = 2
+                          WordWrap = False
+                        end
+                      end
+                    end
                   end
                 end
               end
@@ -9110,8 +10018,8 @@ object Frame3: TFrame3
       object ScrollBox4: TJvScrollBox
         Left = 0
         Top = 0
-        Width = 711
-        Height = 456
+        Width = 712
+        Height = 470
         Align = alClient
         TabOrder = 0
         object Label1: TJvLabel
@@ -9214,8 +10122,8 @@ object Frame3: TFrame3
       object ScrollBox2: TJvScrollBox
         Left = 0
         Top = 0
-        Width = 711
-        Height = 456
+        Width = 712
+        Height = 470
         Align = alClient
         TabOrder = 0
         object Label9: TJvLabel
@@ -9344,6 +10252,12 @@ object Frame3: TFrame3
         end
       end
     end
+  end
+  object AC_TimeCheckPanel1: TAC_TimeCheckPanel
+    Left = 24
+    Top = 96
+    Width = 593
+    Height = 225
   end
   object OpenDialog1: TOpenDialog
     FileName = 
@@ -10088,8 +11002,8 @@ object Frame3: TFrame3
       000000000000}
   end
   object form_popup: TPopupMenu
-    Left = 352
-    Top = 80
+    Left = 432
+    Top = 48
     object Help1: TMenuItem
       Caption = 'Help'
     end

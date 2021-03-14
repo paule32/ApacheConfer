@@ -1,6 +1,7 @@
 package ACPackage;
 
 {$R *.res}
+{$R '..\..\..\..\..\delphi\jshtmlparser\src\HTMLParser.dcr'}
 {$ALIGN 8}
 {$ASSERTIONS OFF}
 {$BOOLEVAL OFF}
@@ -27,7 +28,11 @@ package ACPackage;
 
 requires
   rtl,
-  vcl;
+  vcl,
+  vcljpg,
+  Jcl,
+  JvCore,
+  JvStdCtrls;
 
 contains
   ACTimeCheckPanel in 'ACTimeCheckPanel.pas',
@@ -37,6 +42,8 @@ contains
   ACTranslateMisc in 'ACTranslateMisc.pas',
   ACPageControl in 'ACPageControl.pas',
   ACTabSheet in 'ACTabSheet.pas',
-  ACLocale in 'ACLocale.pas';
+  ACLocale in 'ACLocale.pas',
+  GIFImage in '..\..\..\..\..\DELPHI\TGIFimage_2010b\GifImage.pas',
+  HTMLParser in '..\..\..\..\..\DELPHI\jshtmlParser\src\HTMLParser.pas';
 
 end.

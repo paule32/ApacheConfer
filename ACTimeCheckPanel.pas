@@ -3,16 +3,52 @@ unit ACTimeCheckPanel;
 interface
 
 uses
-  SysUtils, Classes, Controls, ExtCtrls, StdCtrls, Dialogs;
+  SysUtils, Classes, Forms, Controls, ExtCtrls, StdCtrls, Dialogs,
+  Contnrs, JvCtrls;
 
 type
   TAC_TimeCheckPanel = class(TCustomPanel)
   private
-    Zeiters  : Array of TComboBox;
-    Labels   : Array of TLabel;
-    Labsler  : Array of TLabel;
-    Edits    : Array of TEdit;
-    Aktions  : Array of TComboBox;
+    FScrollBox        : TScrollBox;
+    FCount            : Integer;
+    FObjectList       : Array of TObjectList;
+
+    TimeCheckBox      : TCheckBox;
+    TimeAddButton     : TJvImgBtn;
+    TimeDelButton     : TJvImgBtn;
+    //
+    TimeSeperatorLines: TBevel;
+    //
+    TimeActionLabels  : TLabel;
+    TimeActionCombos  : TComboBox;
+    TimeActionEdits   : TEdit;
+    //
+    TimeHHFromLabels  : TLabel;
+    TimeHHToLabels    : TLabel;
+    TimeHHFromCombos  : TComboBox;
+    TimeHHToCombos    : TComboBox;
+    //
+    TimeMMFromLabels  : TLabel;
+    TimeMMToLabels    : TLabel;
+    TimeMMFromCombos  : TComboBox;
+    TimeMMToCombos    : TComboBox;
+    //
+    TimeSSFromLabels  : TLabel;
+    TimeSSToLabels    : TLabel;
+    TimeSSFromCombos  : TComboBox;
+    TimeSSToCombos    : TComboBox;
+
+    array_hh : TStringList;
+    array_mm : TStringList;
+    array_ak : TStringList;
+
+    lbl_xpos : Integer;
+    lbl_ypos : Integer;
+  private
+    procedure DeleteElements(m : Integer);
+    procedure setInitElements(m: Integer);
+    procedure onAddClick(Sender: TObject);
+    procedure onDelClick(Sender: TObject);
   protected
   public
     constructor Create(AOwner: TComponent); override;
@@ -25,37 +61,301 @@ procedure Register;
 
 implementation
 
+procedure TAC_TimeCheckPanel.DeleteElements(m : Integer);
+var
+  i: Integer;
+  btn: TJvImgBtn;
+begin
+  dec(m,1);
+
+  for i := 0 to 18 do begin
+    FObjectList[m].Remove(
+    FObjectList[m].Items[0]);
+  end;
+
+  setLength(FObjectList,m+1);
+  dec(FCount);
+
+    (*
+    for i := 0 to FCount do begin
+      btn := (FObjectList[i].Items[17]) as TJvImgBtn;
+      btn.Tag := FCount;
+    end;*)
+end;
+
+procedure TAC_TimeCheckPanel.onAddClick(Sender: TObject);
+begin
+  showmessage('===> ' + inttostr(FCount));
+  setLength(FObjectList,FCount+1);
+
+  showmessage('xxxx:  ' + inttostr(FCount));
+  FObjectList[FCount] := TObjectList.Create;
+  inc(FCount);
+  showmessage('xxxx111111');
+  setInitElements(FCount);
+  showmessage('xxxx2222');
+end;
+
+procedure TAC_TimeCheckPanel.onDelClick(Sender: TObject);
+var
+  btn: TJvImgBtn;
+begin
+  btn := (Sender) as TJvImgBtn;
+  if btn.Tag < 1 then begin
+    ShowMessage('initial objects can not be delete !');
+    exit;
+  end;
+  DeleteElements(btn.Tag);
+end;
+
+procedure TAC_TimeCheckPanel.setInitElements(m: Integer);
+var
+  i: Integer;
+begin
+  i := FCount - 1;
+//  for i := 0 to FCount - 1 do
+  begin
+    FObjectList[i] := TObjectList.Create;
+    //
+    TimeActionLabels := TLabel.Create(FScrollBox);
+    with TimeActionLabels do begin
+      Parent  := FScrollBox;
+      Caption := 'Action';
+      Left    := lbl_xpos;
+      Top     := lbl_ypos;
+    end;
+    FObjectList[i].Add(TimeActionLabels);
+
+    //
+    TimeActionCombos := TComboBox.Create(FScrollBox);
+    with TimeActionCombos do begin
+      Parent  := FScrollBox;
+      Width   := 120;
+      Height  :=  20;
+      Left    := lbl_xpos;
+      Top     := lbl_ypos + 15;
+      Items.AddStrings(array_ak);
+    end;
+    FObjectList[i].Add(TimeActionCombos);
+
+    //
+    TimeActionEdits := TEdit.Create(FScrollBox);
+    with TimeActionEdits do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos;
+      Top     := lbl_ypos + 40;
+      Width   := 120;
+      Height  :=  20;
+    end;
+    FObjectList[i].Add(TimeActionEdits);
+
+    //
+    TimeHHFromLabels := TLabel.Create(FScrollBox);
+    with TimeHHFromLabels do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos + 145;
+      Top     := lbl_ypos;
+      Caption := 'HH';
+    end;
+    FObjectList[i].Add(TimeHHFromLabels);
+
+    //
+    TimeHHFromCombos := TComboBox.Create(FScrollBox);
+    with TimeHHFromCombos do begin
+      Parent   := FScrollBox;
+      Left     := lbl_xpos + 145;
+      Top      := lbl_ypos +  15;
+      Width    := 50;
+      Height   := 20;
+      Text     := '';
+      Items.AddStrings(array_hh);
+    end;
+    FObjectList[i].Add(TimeHHFromCombos);
+
+    //
+    TimeHHToLabels := TLabel.Create(FScrollBox);
+    with TimeHHToLabels do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos + 210;
+      Top     := lbl_ypos;
+      Caption := 'HH';
+    end;
+    FObjectList[i].Add(TimeHHToLabels);
+
+    //
+    TimeHHToCombos := TComboBox.Create(FScrollBox);
+    with TimeHHToCombos do begin
+      Parent   := FScrollBox;
+      Left     := lbl_xpos + 210;
+      Top      := lbl_ypos +  15;
+      Width    := 50;
+      Height   := 20;
+      Text     := '';
+      Items.AddStrings(array_hh);
+    end;
+    FObjectList[i].Add(TimeHHToCombos);
+
+    //
+    TimeMMFromLabels := TLabel.Create(FScrollBox);
+    with TimeMMFromLabels do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos + 280;
+      Top     := lbl_ypos;
+      Caption := 'MM';
+    end;
+    FObjectList[i].Add(TimeMMFromLabels);
+
+    //
+    TimeMMFromCombos := TComboBox.Create(FScrollBox);
+    with TimeMMFromCombos do begin
+      Parent   := FScrollBox;
+      Left     := lbl_xpos + 280;
+      Top      := lbl_ypos +  15;
+      Width    := 50;
+      Height   := 20;
+      Text     := '';
+      Items.AddStrings(array_mm);
+    end;
+    FObjectList[i].Add(TimeMMFromCombos);
+
+    //
+    TimeMMToLabels := TLabel.Create(FScrollBox);
+    with TimeMMToLabels do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos + 345;
+      Top     := lbl_ypos;
+      Caption := 'MM';
+    end;
+    FObjectList[i].Add(TimeMMToLabels);
+
+    //
+    TimeMMToCombos := TComboBox.Create(FScrollBox);
+    with TimeMMToCombos do begin
+      Parent   := FScrollBox;
+      Left     := lbl_xpos + 345;
+      Top      := lbl_ypos +  15;
+      Width    := 50;
+      Height   := 20;
+      Text     := '';
+      Items.AddStrings(array_mm);
+    end;
+    FObjectList[i].Add(TimeMMToCombos);
+
+    //
+    TimeSSFromLabels := TLabel.Create(FScrollBox);
+    with TimeSSFromLabels do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos + 415;
+      Top     := lbl_ypos;
+      Caption := 'SS';
+    end;
+    FObjectList[i].Add(TimeSSFromLabels);
+
+    //
+    TimeSSFromCombos := TComboBox.Create(FScrollBox);
+    with TimeSSFromCombos do begin
+      Parent   := FScrollBox;
+      Left     := lbl_xpos + 415;
+      Top      := lbl_ypos +  15;
+      Width    := 50;
+      Height   := 20;
+      Text     := '';
+      Items.AddStrings(array_mm);
+    end;
+    FObjectList[i].Add(TimeSSFromCombos);
+
+    //
+    TimeSSToLabels := TLabel.Create(FScrollBox);
+    with TimeSSToLabels do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos + 480;
+      Top     := lbl_ypos;
+      Caption := 'SS';
+    end;
+    FObjectList[i].Add(TimeSSToLabels);
+
+    //
+    TimeSSToCombos := TComboBox.Create(FScrollBox);
+    with TimeSSToCombos do begin
+      Parent   := FScrollBox;
+      Left     := lbl_xpos + 480;
+      Top      := lbl_ypos +  15;
+      Width    := 50;
+      Height   := 20;
+      Text     := '';
+      Items.AddStrings(array_mm);
+    end;
+    FObjectList[i].Add(TimeSSToCombos);
+
+    //
+    TimeCheckBox := TCheckBox.Create(FScrollBox);
+    with TimeCheckBox do begin
+      Parent := FScrollBox;
+      Left    := lbl_xpos;
+      Top     := lbl_ypos + 68;
+      Caption := 'Enabled';
+    end;
+    FObjectList[i].Add(TimeCheckBox);
+
+    //
+    TimeAddButton := TJvImgBtn.Create(FScrollBox);
+    with TimeAddButton do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos;
+      Top     := lbl_ypos + 90;
+      Width   := 74;
+      Height  := 25;
+      Color   := $0080FF80;
+      Tag     := FCount;
+      Caption := 'Add';
+      OnClick := onAddClick;
+    end;
+    FObjectList[i].Add(TimeAddButton);
+
+    //
+    TimeDelButton := TJvImgBtn.Create(FScrollBox);
+    with TimeDelButton do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos + 120;
+      Top     := lbl_ypos +  90;
+      Width   := 74;
+      Height  := 25;
+      Color   := $008080FF;
+      Tag     := FCount;
+      Caption := 'Delete';
+      OnClick := onDelClick;
+    end;
+    FObjectList[i].Add(TimeDelButton);
+
+    //
+    TimeSeperatorLines := TBevel.Create(FScrollBox);
+    with TimeSeperatorLines do begin
+      Parent  := FScrollBox;
+      Left    := lbl_xpos +  15;
+      Top     := lbl_ypos + 124;
+      Width   := 515;
+      Height  := 2;
+    end;
+    FObjectList[i].Add(TimeSeperatorLines);
+
+    lbl_xpos := 10;
+
+    if FCount = 1 then
+    lbl_ypos := lbl_ypos + 130 else
+    lbl_ypos := (TimeSeperatorLines.Top - lbl_ypos) + 100;
+  end;
+end;
+
 constructor TAC_TimeCheckPanel.Create(AOwner: TComponent);
 var
-  i,j,k,l,ypos, xpos: Integer;
-  checker_tag: Integer;
-
-  array_hh: TStringList;
-  array_mm: TStringList;
-  array_ak: TStringList;
+  i: Integer;
 begin
   inherited Create(AOwner);
   Parent := TWinControl(AOwner);
 
-  Width := 2200;
-  Left := 1;
-  Top := 1;
-
-  Caption := '';
-  Text := '';
-  l := 0;
-
-  setLength(Zeiters,13*5);
-  setLength(Labels, 13*5);
-  setLength(edits,5*9);
-  setLength(Aktions,5*9);
-  setLength(Labsler,6);
-
-  checker_tag := 1;
-
-
-  xpos := 140;
-  ypos := 30;
+  FScrollBox := TScrollBox.Create(self);
+  FScrollBox.Parent := self;
+  FScrollBox.Align  := alClient;
 
   array_hh := TStringList.Create;
   array_mm := TStringList.Create;
@@ -69,118 +369,28 @@ begin
   for i := 0 to 23 do array_hh.Add(IntToStr(i));
   for i := 0 to 59 do array_mm.Add(IntToStr(i));
 
-  for j := 0 to 13 do begin
-  for i := 0 to  2 do begin
+  lbl_xpos := 10;
+  lbl_ypos := 10;
 
-    Zeiters[j+(i*13)] := TComboBox.Create(self);
-    Zeiters[j+(i*13)].Parent := self;
-    with Zeiters[j+(i*13)] do
-    begin
-      Name    := Format('_zeiters_%d_%d_', [l,l]);
-      Text    := '';
+  setLength(FObjectList,1);
+  FObjectList[0] := TObjectList.Create;
 
-      if i = 0 then Items.AddStrings(array_hh) else
-      if i = 1 then Items.AddStrings(array_mm) else
-      if i = 2 then Items.AddStrings(array_mm);
-
-      inc(l);
-
-      Width   := 42;
-      Height  := 20;
-      Left    := xpos;
-      Top     := ypos;
-      Enabled := true;
-      Visible := true;
-      Tag     := checker_tag;
-    end;
-
-    Labels[j+(i*13)] := TLabel.Create(self);
-    Labels[j+(i*13)].Parent := self;
-    with Labels[j+(i*13)] do
-    begin
-      if (i = 0) then Caption := 'HH' else
-      if (i = 1) then Caption := 'MM' else
-      if (i = 2) then Caption := 'SS';
-
-      AutoSize := true;
-      Top := ypos - 14;
-      Left := xpos + 5;
-      Visible := true;;
-    end;
-
-    inc(checker_tag);
-    ypos := ypos + 50;
-  end;
-    case j of
-       1:  begin xpos := xpos +  62; end;
-       3:  begin xpos := xpos + 180; end;
-       5:  begin xpos := xpos +  62; end;
-       7:  begin xpos := xpos + 180; end;
-       9:  begin xpos := xpos +  62; end;
-      11:  begin xpos := xpos + 180; end;
-      13:  begin xpos := xpos +  62; end;
-      else begin xpos := xpos +  38; end;     // 16
-    end;
-    ypos := 30;
-  end;
-
-  Zeiters[0].Left := 140;
-
-  xpos :=  5;
-  ypos := 30;
-  for j := 0 to 3 do begin
-  for i := 0 to 2 do begin
-    Aktions[j+(i*4)] := TComboBox.Create(self);
-    with Aktions[j+(i*4)] do begin
-      Parent := self;
-      Items.AddStrings(array_ak);
-      Height := 20;
-      Left := xpos + 5;
-      Top := ypos;
-      Width := 120;
-    end;
-
-    Edits[j+(i*4)] := TEdit.Create(self);
-    with Edits[j+(i*4)] do begin
-      Parent := self;
-      Text := '';
-      Height := 20;
-      Left := xpos + 5;
-      Top  := ypos + 20;
-      width := 120;
-      Enabled := true;
-      Visible := true;
-    end;
-    ypos := ypos + 50;
-    inc(l);
-  end;
-    ypos := 30;
-    xpos := xpos + 320;
-  end;
-
-  xpos := 5;
-  ypos := 10;
-  for i := 0 to 3 do begin
-    Labsler[i] := TLabel.Create(self);
-    with Labsler[i] do begin
-      Parent := self;
-      Font.Size := 10;
-      Caption := 'Action';
-
-      Left := xpos + 5;
-      Top := ypos ;
-      Width := 40;
-      Height := 14;
-    end;
-    xpos := xpos + 320;
-  end;
+  FCount := 1;
+  setInitElements(0);
 end;
 
 destructor TAC_TimeCheckPanel.Destroy;
-var i: Integer;
+var
+  m: Integer;
 begin
-  for i := 1 to high(Zeiters) do begin
-    Zeiters[i].Free;
+  array_hh.Clear; array_hh.Free; array_hh := nil;
+  array_mm.Clear; array_mm.Free; array_mm := nil;
+  array_ak.Clear; array_ak.Free; array_ak := nil;
+
+  for m := High(FObjectList) downto 0 do begin
+    FObjectList[m].Clear;
+    FObjectList[m].Free;
+    FObjectList[m] := nil;
   end;
 
   inherited Destroy;

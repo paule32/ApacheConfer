@@ -27,25 +27,18 @@ type
     ServerTimePage: TAC_PageControl;
     TabSheet_day_1: TAC_TabSheet;
     ScrollBox1: TJvScrollBox;
-    AC_TimeCheckPanel1: TAC_TimeCheckPanel;
     TabSheet_day_2: TAC_TabSheet;
     ScrollBox5: TJvScrollBox;
-    AC_TimeCheckPanel2: TAC_TimeCheckPanel;
     TabSheet_day_3: TAC_TabSheet;
     ScrollBox6: TJvScrollBox;
-    AC_TimeCheckPanel3: TAC_TimeCheckPanel;
     AC_TabSheet1: TAC_TabSheet;
     ScrollBox7: TJvScrollBox;
-    AC_TimeCheckPanel4: TAC_TimeCheckPanel;
     AC_TabSheet2: TAC_TabSheet;
     ScrollBox8: TJvScrollBox;
-    AC_TimeCheckPanel5: TAC_TimeCheckPanel;
     TabSheet16: TAC_TabSheet;
     ScrollBox10: TJvScrollBox;
-    AC_TimeCheckPanel6: TAC_TimeCheckPanel;
     TabSheet17: TAC_TabSheet;
     ScrollBox9: TJvScrollBox;
-    AC_TimeCheckPanel7: TAC_TimeCheckPanel;
     TabSheet20: TAC_TabSheet;
     PageControl6: TAC_PageControl;
     TabSheet21: TAC_TabSheet;
@@ -859,22 +852,22 @@ type
     ScrollBox14: TJvScrollBox;
     Label8: TJvLabel;
     Label10: TJvLabel;
-    ListBox3: TListBox;
+    ListBox3: TJvCheckListBox;
     Button7: TJvImgBtn;
     Button8: TJvImgBtn;
     Edit6: TJvEdit;
-    ListBox5: TListBox;
+    ListBox5: TJvCheckListBox;
     Button9: TJvImgBtn;
     Button10: TJvImgBtn;
     TabSheet10: TTabSheet;
     ScrollBox64: TJvScrollBox;
     Label11: TJvLabel;
     Label12: TJvLabel;
-    ListBox7: TListBox;
+    ListBox7: TJvCheckListBox;
     Button15: TJvImgBtn;
     Button16: TJvImgBtn;
     Edit10: TJvEdit;
-    ListBox8: TListBox;
+    ListBox8: TJvCheckListBox;
     Button17: TJvImgBtn;
     Button18: TJvImgBtn;
     TabSheet12: TTabSheet;
@@ -886,17 +879,13 @@ type
     TabSheet89: TTabSheet;
     ScrollBox70: TJvScrollBox;
     Label30: TJvLabel;
-    Label31: TJvLabel;
     CheckBox10: TJvCheckBox;
     CheckBox11: TJvCheckBox;
-    CheckListBox5: TJvCheckListBox;
     RadioGroup4: TRadioGroup;
     ComboBox3: TJvComboBox;
     RadioButton8: TJvRadioButton;
     RadioButton9: TJvRadioButton;
     RadioButton10: TJvRadioButton;
-    CheckBox12: TJvCheckBox;
-    Memo4: TMemo;
     TabSheet90: TTabSheet;
     ScrollBox71: TJvScrollBox;
     Label32: TJvLabel;
@@ -1075,6 +1064,56 @@ type
     form_popup: TPopupMenu;
     Help1: TMenuItem;
     JvImgBtn1: TJvImgBtn;
+    rewrite_save_dir_btn: TJvImgBtn;
+    JvCheckListBox1: TJvCheckListBox;
+    Memo2: TMemo;
+    JvLabel1: TJvLabel;
+    Memo3: TMemo;
+    JvLabel2: TJvLabel;
+    JvImgBtn2: TJvImgBtn;
+    JvImgBtn3: TJvImgBtn;
+    JvImgBtn4: TJvImgBtn;
+    JvImgBtn5: TJvImgBtn;
+    JvPageControl1: TJvPageControl;
+    TabSheet2: TTabSheet;
+    JvScrollBox1: TJvScrollBox;
+    JvCheckListBox2: TJvCheckListBox;
+    JvCheckBox1: TJvCheckBox;
+    JvCheckListBox3: TJvCheckListBox;
+    JvCheckBox2: TJvCheckBox;
+    JvImgBtn6: TJvImgBtn;
+    JvImgBtn7: TJvImgBtn;
+    JvImgBtn8: TJvImgBtn;
+    JvImgBtn9: TJvImgBtn;
+    JvImgBtn10: TJvImgBtn;
+    JvPanel1: TJvPanel;
+    TabSheet3: TTabSheet;
+    Memo4: TMemo;
+    JvLabel3: TJvLabel;
+    JvScrollBox2: TJvScrollBox;
+    JvLabel4: TJvLabel;
+    JvLabel5: TJvLabel;
+    JvLabel6: TJvLabel;
+    JvCheckListBox4: TJvCheckListBox;
+    JvCheckListBox5: TJvCheckListBox;
+    Memo6: TMemo;
+    JvCheckListBox6: TJvCheckListBox;
+    JvCheckListBox7: TJvCheckListBox;
+    JvImgBtn11: TJvImgBtn;
+    JvImgBtn12: TJvImgBtn;
+    JvImgBtn13: TJvImgBtn;
+    JvImgBtn14: TJvImgBtn;
+    JvPanel2: TJvPanel;
+    JvLabel7: TJvLabel;
+    JvPanel3: TJvPanel;
+    JvLabel8: TJvLabel;
+    JvCheckListBox8: TJvCheckListBox;
+    JvCheckBox3: TJvCheckBox;
+    JvCheckListBox9: TJvCheckListBox;
+    JvImgBtn15: TJvImgBtn;
+    JvImgBtn16: TJvImgBtn;
+    JvPanel4: TJvPanel;
+    AC_TimeCheckPanel1: TAC_TimeCheckPanel;
     procedure listen_add_btnClick(Sender: TObject);
     procedure listen_del_btnClick(Sender: TObject);
     procedure listen_checkboxDblClick(Sender: TObject);
@@ -1140,11 +1179,21 @@ type
       TabIndex: Integer; const Rect: TRect; Active: Boolean);
     procedure PageControl18DrawTab(Control: TCustomTabControl;
       TabIndex: Integer; const Rect: TRect; Active: Boolean);
+    procedure rewrite_save_dir_btnClick(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
+    procedure Button8Click(Sender: TObject);
+    procedure Button10Click(Sender: TObject);
+    procedure Button9Click(Sender: TObject);
+    procedure Button15Click(Sender: TObject);
+    procedure Button17Click(Sender: TObject);
+    procedure Button16Click(Sender: TObject);
+    procedure Button18Click(Sender: TObject);
   private
     ini: TIniFile;
     procedure rewrite_rename(Sender: TObject);
   protected
-    procedure RegisterWindowClass(AWndProc: TWndProc);
+    procedure WMCtlColorScrollbar(var msg: TWMCtlColorScrollbar);
+    message WM_CTLCOLORSCROLLBAR;
   public
     constructor Create(AOwner: TComponent); override;
     destructor Destroy; override;
@@ -1169,32 +1218,105 @@ var
   winHRect : TRect;
   winHBrush: HBRUSH;
 
-function _WndProc(hWnd: HWND; uMsg: UINT; wParam: WPARAM;
-  lParam: LPARAM): LRESULT; stdcall;
-var
-  i: Integer;
+
+procedure TFrame3.WMCtlColorScrollbar(var msg: TWMCtlColorScrollbar);
 begin
-  Result := 0;
-  case uMsg of
-    WM_CREATE: begin
-      winHBrush := CreateSolidBrush(RGB(200,160,100));
-    end;
-    WM_CTLCOLORSCROLLBAR: begin
-      result := LongInt(LRESULT(winHBrush));
-      exit;
-    end;
-    WM_DESTROY: begin
-      DeleteObject(winHBrush);
-    end;
-    else begin
-      Result := DefWindowProc(hwnd, umsg, wparam, lparam);
-    end;
-  end;
+//  if msg.ChildWnd = ScrollBar1.Handle then
+//    msg.Result := CreateSolidBrush(RGB(255, 255, 0));
 end;
 
 function LeftPad(value: String; length:integer=8; pad:char='0'): string; overload
 begin
   result := RightStr(StringOfChar(pad,length) + value, length );
+end;
+procedure TFrame3.Button9Click(Sender: TObject);
+var
+  s: String;
+begin
+  s := Trim(Edit6.Text);
+  if ListBox5.Items.IndexOf(s) > -1 then
+  begin
+    ShowMessage('Data exists already !');
+    exit;
+  end;
+  if Length(Trim(Edit6.Text)) < 1 then begin
+    ShowMessage('String to short');
+    exit;
+  end;
+  ListBox5.Items.Add(Trim(Edit6.Text));
+end;
+
+procedure TFrame3.Button15Click(Sender: TObject);
+var
+  s: String;
+begin
+  s := Trim(Edit6.Text);
+  if ListBox7.Items.IndexOf(s) > -1 then
+  begin
+    ShowMessage('Data exists already !');
+    exit;
+  end;
+  if Length(Trim(Edit6.Text)) < 1 then begin
+    ShowMessage('String to short');
+    exit;
+  end;
+  ListBox7.Items.Add(Trim(Edit6.Text));
+end;
+
+procedure TFrame3.Button17Click(Sender: TObject);
+var
+  s: String;
+begin
+  s := Trim(Edit6.Text);
+  if ListBox8.Items.IndexOf(s) > -1 then
+  begin
+    ShowMessage('Data exists already !');
+    exit;
+  end;
+  if Length(Trim(Edit6.Text)) < 1 then begin
+    ShowMessage('String to short');
+    exit;
+  end;
+  ListBox8.Items.Add(s);
+end;
+
+procedure TFrame3.Button16Click(Sender: TObject);
+var
+  idx: Integer;
+begin
+  idx := ListBox7.ItemIndex;
+  if idx < 0 then begin
+    ShowMessage('no item selected');
+    exit;
+  end else begin
+    ListBox7.Items.Delete(idx);
+  end;
+end;
+
+procedure TFrame3.Button18Click(Sender: TObject);
+var
+  idx: Integer;
+begin
+  idx := ListBox8.ItemIndex;
+  if idx < 0 then begin
+    ShowMessage('no item selected');
+    exit;
+  end else begin
+    ListBox8.Items.Delete(idx);
+  end;
+end;
+
+procedure TFrame3.Button10Click(Sender: TObject);
+var
+  idx: Integer;
+begin
+  idx := ListBox5.ItemIndex;
+  if idx < 0 then begin
+    ShowMessage('no item selected');
+    exit;
+  end else begin
+    ListBox5.Items.Delete(idx);
+  end;
 end;
 
 constructor TFrame3.Create(AOwner: TComponent);
@@ -1202,18 +1324,8 @@ begin
   inherited Create(AOwner);
   Parent := TWinControl(AOwner);
 
-  RegisterWindowClass(_WndProc);
-
   ini := TIniFile.Create('.\config.ini');
   readValues;
-end;
-
-procedure TFrame3.RegisterWindowClass(AWndProc: TWndProc);
-var
-  WCE: TWndClassEx;
-begin
-  WCE.lpfnWndProc := @AWndProc;
-  RegisterClassEx(WCE);
 end;
 
 destructor TFrame3.Destroy;
@@ -1653,20 +1765,41 @@ end;
 procedure TFrame3.rewrite_template_boxMouseDown(Sender: TObject;
   Button: TMouseButton; Shift: TShiftState; X, Y: Integer);
 var
-  s1,s3: String;
-  i1,i2,i3: Integer;
+  s1,s3,s4: String;
+  i1,i2,i3,i4: Integer;
 begin
   if not (Sender is TJvCheckListBox) then
   exit;
 
   if Button = mbLeft then
   begin
-    s1 := 'rewrite customized';
-    rewrite_custom_memo1.Clear;
-    rewrite_custom_memo2.Clear;
+    s1 := 'rewrite customized' ;
+    rewrite_custom_memo1 .Clear;
+    rewrite_custom_memo2 .Clear;
+
+    rewrite_checkbox_user.Clear;
 
     i1 := rewrite_template_box.ItemIndex;
+
+    i4 := ini.ReadInteger(s1,'count:dirs:' + IntToStr(i1),0);
     i3 := ini.ReadInteger(s1,'count:cond:' + IntToStr(i1),0);
+
+    for i2 := 0 to i4 - 1 do
+    begin
+      s3 := ini.ReadString(s1,'line:dirs:' +
+      IntToStr(i1) + ':text:' +
+      IntToStr(i2) , '');
+
+      s4 := ini.ReadString(s1,'line:dirs:' +
+      IntToStr(i1) + ':check:' +
+      IntToStr(i2) , 'false');
+
+      rewrite_checkbox_user.Items.Add(s3);
+      if s4 = 'false' then
+      rewrite_checkbox_user.Checked[i2] := false else
+      rewrite_checkbox_user.Checked[i2] := true;
+    end;
+
     for i2 := 0 to i3 - 1 do
     begin
       s3 := ini.ReadString(s1,'line:cond:' +
@@ -2709,5 +2842,40 @@ begin
   end;
 end;
 
+
+procedure TFrame3.rewrite_save_dir_btnClick(Sender: TObject);
+begin
+//ini
+end;
+
+procedure TFrame3.Button7Click(Sender: TObject);
+var
+  s: String;
+begin
+  s := Trim(Edit6.Text);
+  if ListBox3.Items.IndexOf(s) > -1 then
+  begin
+    ShowMessage('Data exists already !');
+    exit;
+  end;
+  if Length(s) < 1 then begin
+    ShowMessage('String to short');
+    exit;
+  end;
+  ListBox3.Items.Add(s);
+end;
+
+procedure TFrame3.Button8Click(Sender: TObject);
+var
+  idx: Integer;
+begin
+  idx := ListBox3.ItemIndex;
+  if idx < 0 then begin
+    ShowMessage('no item selected');
+    exit;
+  end else begin
+    ListBox3.Items.Delete(idx);
+  end;
+end;
 
 end.

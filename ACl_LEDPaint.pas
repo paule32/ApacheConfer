@@ -21,6 +21,7 @@ type
   published
     property Caption: string read FCaption write setCaption;
     property Color: TAC_LEDColor read FLEDColor write setColor;
+    property Font;
   end;
 
 procedure Register;

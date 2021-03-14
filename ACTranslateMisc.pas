@@ -12,7 +12,7 @@ type
     FIniFile  : TIniFile;
   public
     constructor Create(Locales: TAC_LocalesProperties);
-    destructor Destroy;
+    destructor Destroy; override;
     function get(
           locStr: String;
           locIdx: TAC_LocalesIndex):
